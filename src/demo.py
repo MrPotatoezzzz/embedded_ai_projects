@@ -16,10 +16,10 @@ def load_module(module_name, path):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Real-time split-screen edge demo.")
+    parser = argparse.ArgumentParser(description="Real-time split-screen segmentation demo.")
     parser.add_argument(
         "--weights",
-        default="outputs/example_edge_model/model_best.pt",
+        default="outputs/supervisely_run/model_best.pt",
         help="Path to trained model weights.",
     )
     parser.add_argument(
@@ -35,7 +35,7 @@ def parse_args():
     )
     parser.add_argument(
         "--window",
-        default="Edge Demo",
+        default="Segmentation Demo",
         help="Window title.",
     )
     return parser.parse_args()
@@ -49,10 +49,15 @@ def prepare_frame(frame_bgr, size):
     return tensor
 
 
-def tensor_to_bgr(tensor):
-    image = tensor.squeeze(0).permute(1, 2, 0).detach().cpu().numpy()
+def tensor_to_gray_bgr(tensor):
+    image = tensor.squeeze(0).squeeze(0).detach().cpu().numpy()
     image = np.clip(image * 255.0, 0, 255).astype(np.uint8)
-    return cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+    return cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
+
+
+def logits_to_mask(logits, threshold=0.5):
+    probs = torch.sigmoid(logits)
+    return (probs > threshold).float()
 
 
 def open_capture(source):
@@ -68,7 +73,7 @@ def main():
     model_module = load_module("model_example", model_path)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = model_module.SmallUNet().to(device)
+    model = model_module.UNet3(out_channels=1, base=64).to(device)
     state = torch.load(args.weights, map_location=device)
     model.load_state_dict(state)
     model.eval()
@@ -88,8 +93,9 @@ def main():
 
             with torch.no_grad():
                 output = model(tensor)
+                mask = logits_to_mask(output)
 
-            processed = tensor_to_bgr(output)
+            processed = tensor_to_gray_bgr(mask)
             processed = cv2.resize(
                 processed,
                 (frame.shape[1], frame.shape[0]),

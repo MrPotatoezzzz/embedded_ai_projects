@@ -16,7 +16,7 @@ def load_module(module_name, path):
 
 def evaluate_model(data_root, weights_path, batch_size=4, size=64, num_workers=0):
     root = Path(__file__).resolve().parents[2]
-    loader_path = root / "src" / "01_data_loaders" / "data_loader_example.py"
+    loader_path = root / "src" / "01_data_loaders" / "supervisely_persons_loader.py"
     model_path = root / "src" / "02_model" / "model_example.py"
     metrics_path = root / "src" / "03_train_test" / "metrics_example.py"
 
@@ -26,8 +26,10 @@ def evaluate_model(data_root, weights_path, batch_size=4, size=64, num_workers=0
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+    splits_json = Path(data_root) / "splits.json"
+
     test_loader = loader_module.create_dataloader(
-        data_root=data_root,
+        splits_json=splits_json,
         split="test",
         batch_size=batch_size,
         size=size,
@@ -35,7 +37,7 @@ def evaluate_model(data_root, weights_path, batch_size=4, size=64, num_workers=0
         num_workers=num_workers,
     )
 
-    model = model_module.SmallUNet().to(device)
+    model = model_module.UNet3(out_channels=1, base=64).to(device)
     state = torch.load(weights_path, map_location=device)
     model.load_state_dict(state)
     model.eval()
@@ -46,29 +48,29 @@ def evaluate_model(data_root, weights_path, batch_size=4, size=64, num_workers=0
             inputs = inputs.to(device)
             targets = targets.to(device)
             outputs = model(inputs)
-            batch_scores = metrics_module.ssim(outputs, targets)
+            batch_scores = metrics_module.iou(torch.sigmoid(outputs), targets)
             scores.append(batch_scores.detach().cpu())
 
     if not scores:
-        mean_ssim = 0.0
+        mean_iou = 0.0
     else:
-        mean_ssim = torch.cat(scores).mean().item()
+        mean_iou = torch.cat(scores).mean().item()
 
     output_dir = Path(weights_path).parent
     metrics_path = output_dir / "test_metrics.json"
     with open(metrics_path, "w", encoding="utf-8") as handle:
-        json.dump({"test_ssim": mean_ssim}, handle, indent=2)
+        json.dump({"test_iou": mean_iou}, handle, indent=2)
 
-    print(f"Test SSIM: {mean_ssim:.4f}")
-    return mean_ssim
+    print(f"Test IoU: {mean_iou:.4f}")
+    return mean_iou
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Test the example image-to-image model.")
-    parser.add_argument("--data-root", default="data/dataset_example")
-    parser.add_argument("--weights", default="outputs/example_run/model_best.pt")
+    parser = argparse.ArgumentParser(description="Test the example segmentation model.")
+    parser.add_argument("--data-root", default="data/supervisely_persons")
+    parser.add_argument("--weights", default="outputs/supervisely_run/model_best.pt")
     parser.add_argument("--batch-size", type=int, default=4)
-    parser.add_argument("--size", type=int, default=64)
+    parser.add_argument("--size", type=int, default=256)
     parser.add_argument("--num-workers", type=int, default=0)
     return parser.parse_args()
 
