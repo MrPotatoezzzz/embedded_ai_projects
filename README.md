@@ -10,9 +10,10 @@ You will work in **three phases**:
 3) Jetson integration + real-time demo (split screen)
 
 ---
-
 ## Example mini pipeline (this repo)
 This repo now includes a tiny, runnable example that mirrors the full workflow.
+
+<img src="./ignore_me/demo_example.gif" width="100%">
 
 Example layout:
 ```
@@ -29,15 +30,18 @@ Example layout:
 │           ├── input/
 │           └── target/
 ├── outputs/
-│   └── example_run/
-│       ├── model_best.pt
-│       ├── model_last.pt
-│       ├── loss_curve.png
-│       ├── ssim_curve.png
-│       ├── train_metrics.json
-│       └── test_metrics.json
+│   ├── example_run/
+│   │   ├── model_best.pt
+│   │   ├── model_last.pt
+│   │   ├── loss_curve.png
+│   │   ├── ssim_curve.png
+│   │   ├── train_metrics.json
+│   │   └── test_metrics.json
+│   └── example_edge_model/
+│       └── model_best.pt
 └── src/
     ├── launch.py
+    ├── demo.py
     ├── 01_data_loaders/
     │   └── data_loader_example.py
     ├── 02_model/
@@ -55,7 +59,7 @@ python3 src/launch.py
 
 Then run the real-time demo (press `q` to quit):
 ```bash
-python3 src/demo.py --weights outputs/example_run/model_best.pt --size 128
+python3 src/demo.py --weights outputs/example_edge_model/model_best.pt --size 128
 ```
 The demo uses OpenCV (`cv2`), which is usually preinstalled on Jetson; install
 `opencv-python` if needed.
