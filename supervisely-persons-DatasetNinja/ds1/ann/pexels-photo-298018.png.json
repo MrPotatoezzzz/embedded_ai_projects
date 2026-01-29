@@ -1,0 +1,100 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1203
+    },
+    "objects": [
+        {
+            "id": 52538806,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBFQTq+4lQTkcNChoKAAAADUlIRFIAAAGCAAACKwEDAAAA2M8McQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAO9SURBVHic7dxBbusgEADQVFlk8yWOwFE4Gj4aR+EILL2o8G+SpnHMwMzYGGNsNqmUPNXAAGMkuFyC8jXciwm/iJbrQwwdXYin8HQhn2LoyUL/CnpVXoD8XNc/MTiauL0FsSbiLb5pQr0FsSL6LQYS+BoBWr9fx8JQxG0sLEWIsXAUIceC1CFqLEgdMgakDvloXFKHXNni9ik6XAi2UGyhP4XBxcAVk8YlBNZ1sXCouLHFpDsIwcsXciLw4FUFhGaLYVryi2lY4aE4DZI1xDSscCEC4bILyRYqg8DCXbNFAPKLMKywcA+DJL8IwwoTIodABqFkCwWILrPQgDBJAYDcAggrZF3jCyCskGGbSSSHVCaRTPxKCGAIIkOqaZEc6HwhmhZdViGbFmZjoTYT9hRk4TYWEhSpZQ0WqSUHFqnpJyI6tjBxIWBh2SLRWBGRaCy+gNeoIwgw99mhADPkHQrwbSI9mbQi9GbCZRVqM2ETAh5SKSEyCZMQen0BgxmiiwIJg0RbsUVkJhniKQBfiKiIPRZf6KiI9QhbRBaPR4FnXr6QCQEHCl/olAAfiy1SFYcfK7uwOUQk73kVoOp8IdMC2DXJLoCq84VGhCsgwqrnF2HVVxBB1esUGAjjfQURdOEKIpiA1hDT5l1DTJt3r2LahXyhcdI1IsxSIXHhTkEW/R4Eksnci29ETIZUnUIShFkmCL//EEhC/SruFHMEJUQ+haSJvnahaMIvETSwSMR3SvYliIE4mrDqFLImYeoWiipc3YIK3tNPlYI6aMsIf3hBnnz+dsWPK+TxhKlZqLqEO7qgg9dUvXvhZwr6RN2OGGYKxkRdRpgCwjYi+nlC1CZ8I2IoIUwBYQsIP0solrhX/biCBwbeUtuQ8AVEX0DYAoKZkJURvpBgpVdFRF9A2PWFZyevfNGf4hQ0wUqp/SkOJ4ZT0Is5BbnYQwvBEv0pVhaqOsHfAiglWOAUnHKKuoQ5xf6FakQInmCvgwM7k6lX8HejeB1STAiO4L/S21KC1SH3twneSL/MFIoO/Fwh6cLNFYTm/f79NHMF5fyVfn5eZgv587dKi38P4ueLnz60iHg2j1sgLti5Ivcc3GZN8f34xecBEL5IAvC8c5UCifjdCOTkxG5EicPkJYTYXgBXTfCFLCB0AYEA4O4EtkAPL9kCwi0XaM3DUOQLjYjwygHsf9QpuilAU6ydCDSudiLQt5adCJFfmC2EzC/sFkLVINwWQucXwa1ydQoMFLnpZR8C32loVeBn3FsV+AZhg+I/Z41LX51AVD8AAAAASUVORK5CYILjWsM+",
+                "origin": [
+                    405,
+                    244
+                ]
+            }
+        },
+        {
+            "id": 52538805,
+            "classId": 6462821,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "neutral",
+            "points": {
+                "exterior": [
+                    [
+                        452,
+                        799
+                    ],
+                    [
+                        698,
+                        799
+                    ],
+                    [
+                        668,
+                        707
+                    ],
+                    [
+                        662,
+                        651
+                    ],
+                    [
+                        648,
+                        632
+                    ],
+                    [
+                        604,
+                        624
+                    ],
+                    [
+                        594,
+                        598
+                    ],
+                    [
+                        551,
+                        599
+                    ],
+                    [
+                        544,
+                        623
+                    ],
+                    [
+                        493,
+                        632
+                    ],
+                    [
+                        470,
+                        670
+                    ],
+                    [
+                        462,
+                        737
+                    ],
+                    [
+                        466,
+                        746
+                    ],
+                    [
+                        452,
+                        799
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

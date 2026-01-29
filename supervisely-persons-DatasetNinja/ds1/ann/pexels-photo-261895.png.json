@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1208
+    },
+    "objects": [
+        {
+            "id": 52538884,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBMgTN+4lQTkcNChoKAAAADUlIRFIAAAG4AAACGQEDAAAA7qy4JgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPaSURBVHic7d07dusgEABQ57h4pZbAUliatDSWwhIoXfhEOVZsx5/5MWJ4QoYmTW5ADDNIshwdDmhz82/7xn9lE268urmOO97YnKq4+a9NFdzXrINa5x7d2dwd56cWrJ1/didr98zkuVTZDS9ujrbOvTrhhCrd1ysTFhmt+/fukqV7mxZhChZ0ohqjdSPgoqEDmGilVXZHyAlSXusGyAkCqHUedMnMgUyQEUoHVJelWTmgupg6h7hg5Ma6DgsDV2E245gKo3Vgdbk0psJo3YA5psKUd7GyowOhdX4zjq6gWoey6o6uoJUdmn7dqRy2a15a6K6oSztwrrvuuuvuA1zYgRv37dCrPyNHbZsWjmLUeZ3SUWeR3XXXqqudR8RVv40j64uBI+vnDhy5H32wayV+Wlc7jzblQmWXPteR67O7bEfWs7270F3TjmDdlXVUfaE+H+tu+476/La7so7Kv2jhHO4mC0ec2Jk4/E4D81xJccc8N6N1HnOxsgvbcgPCEs0KO/7pwbKOG2XrLuzGwbdc7Rw8TpYhGwvLkA0w6YbJdwgPU/90JJOA2DC5SHjU0WUeZfR2RN3XnwjnCBdVwyQPkLw7QURioByxZDzpAupG0iXVtBAHSH8qgx8g57ADHBgXEecYh00Mw9AVwzlsQjmHpBI3nVggtG5g3QQ6x7oAOs+6CLqRdQl0LEMCzzsw8GRxuTZoQi1dKOjIW+XXlgq6QeCgQGzRQRkvcVDmitykdOHd+S26VM5JGFQpTB2wYJSO3x2WNlV2sZQbZO5Nbta9rFEvdudG3FzEyVkRJ9k1W3aSXfo/uXMJ57rrrrvVrnbedge7VvYVrcvZp0MJ5+Uu7dydKrvvyu7poqUVl8GacbE9l1PPqrtTd5zLuV553HG7+yA3r3du527srqTLKmcf5IR3hbvr7iPc0F133e3cnbszcn7nLoutd3lXR+vdWNdlDnO183Vd5knIaufacJnXKqvdWNflD7Mtl706r/cHW3FDZecbcflslVOEb5W77ykZifHgTjn18M9NWZl4c7d9SdrhdXDhtl1LO/x18XBvwg4X9/hxurDDxR0em6xD4CnQUelEHYLPtQtOSoo6QcGJRR0fxY049hCLO2ao5R1dVicDR+0bJo6o5DYODT/7ThWtQ8rUCuc0b2c4LWVP5TzzVVDMXcZPduhxR3aIuMsP8qugUCKmdY4OBfySKK27zAvz3dp3F0zd8Zpu7u4O1/BMJu5t0On2R4K9u7Xh4qLS8f8sAHZ5bzBc2u8qikonfm/evR0ruy+lO6xyigCOSucrO7dmgSrcMtBs9wPPetXn7gmmzQAAAABJRU5ErkJggungDhc=",
+                "origin": [
+                    370,
+                    200
+                ]
+            }
+        }
+    ]
+}

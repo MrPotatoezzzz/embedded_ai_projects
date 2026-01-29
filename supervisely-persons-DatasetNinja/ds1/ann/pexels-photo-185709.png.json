@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 52538784,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBMgTN+4lQTkcNChoKAAAADUlIRFIAAAG5AAABGQEDAAAAMIbJhQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPaSURBVHic7dnJdeMwDAbg6OmgI0tgKSyNKk2lsAQdffAzJ4lnZBHAzwWUEjsTHQF+NMRFm9/e2GEDj9UcU7zICb/koYs3MW5Rh1vHMUpdDzHGPHxvEITwCOJJz1JN03t8zcGPBlchbkCHSQNpdCzoMGkQZx53oMOkgTSsPhaG9bNB4PEIKkkbcDhEUEkKVxYeQYekZz7uE+iwCC2Ik5L4hDkt9CC+Hfdz4TPtQXw7zGcDPtMRxPvhffTYEhmiHD8A3oedra0xynEGQzP0MpyiHH8coIGphWsrHAC0IN4P/40e3QYOxPvhVIBwX5leSBv8XRd4Q9pvg7RBLEFXgPASoIboXLRwqIakwQPOAIKevx6OJYgG4QGXEkx7LkJU0gEwHAynXxjhpfzrofmFv/BFoO2HaXwoQXMeBI9W/RDeyp8P0icrNfQFOHVDmldDdzpcG6FB0J4OQ1upj7vcgiAthfxgK9zOhD3rFaDTQr9B2OULwZCH7E3I/wdwG7XlSaDTQqOFI4LFl7LXgcOJUK4UwrEA4XScBqdnhLMIDYLonesFoUWDZ34OdAjanwM9gq4fLsfCLU0r8s8GBy0cIXwkggRNRB0XoNNCj+CQh7s0hqsAd2NDOt5B6S3AaKGFcFeL9PfDbmzIqeyg9E0/1kDpdoXhlIWDFu7rIYO3hzODkxYaDM050O7htQE6LfQY2iyMXw0HLRzPgC4Hp0q4aOGqheyiYyohu+ik8AIhu+jYDPT7lBrOBLpauGhhINDXwjULV5yD3/oEmKTg18Xng3TpnAGHb4Z0lb8sTBZkeuXET5ZtcNDCMQOHg+CSwPR6nB3VFBottFro6mFIoM8kszDWJ4+BgxaS+Scj5zGcGuC6TxkttFnoMHQEzrXQE/imhLdqSH6Q3FgshHT+L7WQzn8W7pN0/tcUOggNgaEWWgKXU+AVZhj0EHotjC1wt6zo/OMPDwTS+c/DWA1pQY8MXTj5W+Aua/KQFvTIWi10bfAxAp7CdHDwtbMRhi1DXS1kC6cWsvkvwBUlToPbJcA0wm1DWi10jXDbkF4LmSvAqIbzPc4XTiXkC6cEl0poQJovHLKRGQydkMWLcL3HbTO8dELXDK8QJo6X9Bf6ZnjrhNyVYKyETs4Lm6MIZwCzD48bFDZHES510MtQ2BxFGLqg4ZA8IPMGaxe0WugU8AJg+kgurJCLPGZleO2CPEwgWloCXE+DUT6DzB8z3XCWCwlamP6iEVosHVAqJIX2SBjkQg6CTm4hQfxBfwelQg6CXoZSf2V4ORUKDT5agP508FqENzmcQGnDfuxkJZzV8A9XUCUjEXUYyAAAAABJRU5ErkJggqWS3V0=",
+                "origin": [
+                    369,
+                    518
+                ]
+            }
+        }
+    ]
+}

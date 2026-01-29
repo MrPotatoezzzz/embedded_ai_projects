@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 52538990,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtISQBzIyAwkP737Ig+k2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyEnydHEMqZiz9NRG3gYFAbeH8ro6ko2BeSa+MgemvtCIbTwX5MV1qNJRyNlpy4YfXdNtVnCs4Ompmb1qm3jGtlbNPRwKfaGH7pxIeMbvyVKZr3Im/nn344XVMe7Pjc81l22MvMDFc4BVYd4CWSNO2zlA2xg8Xf1c1jklNAEAnkBCRA==",
+                "origin": [
+                    832,
+                    367
+                ]
+            }
+        }
+    ]
+}

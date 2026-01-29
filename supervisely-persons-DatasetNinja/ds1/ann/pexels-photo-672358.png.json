@@ -1,0 +1,140 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 52539180,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBsgJN/YlQTkcNChoKAAAADUlIRFIAAACBAAABVQEDAAAA8rYengAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAJaSURBVHic1dg7ztwgEABgkAt34QbxUThLDhLB0RylSJkruEtLF0dCnizmzfgx9u6vTWh29WkXmGEQ2Iyt7RNr24BEjqfCARrqAUzTMYA9E4lEASy1wKOdCHeiS+m2ZTyWHolwMiExxzIQRFJl/jC5PGccaY/yQ8kzXh28gnx7lStxlYCrBVcUReZaJKpnufWbWr6g+UCb+TWIKh1Yemj/JrwUsx4IIr0UM4LQdIQuitkXESV1LaOkriE1vSccSZdlrCIviooiIoupclFkEYvMEgJTWRa6QNF2hJeiqdKVMiKZtqU/FtMkjCbztgxXxTaJvytLsxRB4HnBY03bgvNcraBBlfAqmd8qlir8XTJTpdo7hrq/KtFI2B1ZCGIJMiMxSKZbMpKlzLNGwlpZCGL3hF2TeFrB7zuifjVRlKKfkjRWPAclRXJg0z8v5n+R4UUi6PLzSMIx831Twk2mW/8A346Eww8nOgsTXlSWLondFT++loX46/yARBQXxEsCtbgR9QXhScZbMj0lLIl5kaQHAbUtLgN2X6QL0s1zqcQN0IoiiMzLk0W/VcZahuui171XiIu6kFDcFOlzKQgkzEtHEI6EYVEEkWVJWT/TVsSxLNvSI+kIwqsSvyd6/USi7sncivwTRQUZ0p47EtuIyLeHJLAr8kh0EubHuiJDkLx348wookhiCWKQTEH69BxBkQCP4vKSVzCJPpfPER7F1bwQepmwe6I+Sjo0FhaBRLUiCa9y4VyqU+kJ8WfliSho31pLJIIgHInruhFBkB4Jfq/+6FqfikTCvqZvfwFPW2FWrJRjfwAAAABJRU5ErkJggiZaLEg=",
+                "origin": [
+                    570,
+                    375
+                ]
+            }
+        },
+        {
+            "id": 52539179,
+            "classId": 6462821,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "neutral",
+            "points": {
+                "exterior": [
+                    [
+                        639,
+                        532
+                    ],
+                    [
+                        649,
+                        533
+                    ],
+                    [
+                        664,
+                        530
+                    ],
+                    [
+                        666,
+                        517
+                    ],
+                    [
+                        667,
+                        500
+                    ],
+                    [
+                        666,
+                        482
+                    ],
+                    [
+                        660,
+                        470
+                    ],
+                    [
+                        667,
+                        456
+                    ],
+                    [
+                        661,
+                        447
+                    ],
+                    [
+                        654,
+                        437
+                    ],
+                    [
+                        648,
+                        426
+                    ],
+                    [
+                        637,
+                        420
+                    ],
+                    [
+                        607,
+                        423
+                    ],
+                    [
+                        603,
+                        432
+                    ],
+                    [
+                        600,
+                        439
+                    ],
+                    [
+                        597,
+                        451
+                    ],
+                    [
+                        597,
+                        463
+                    ],
+                    [
+                        600,
+                        478
+                    ],
+                    [
+                        597,
+                        482
+                    ],
+                    [
+                        592,
+                        501
+                    ],
+                    [
+                        599,
+                        524
+                    ],
+                    [
+                        607,
+                        533
+                    ],
+                    [
+                        617,
+                        534
+                    ],
+                    [
+                        639,
+                        532
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

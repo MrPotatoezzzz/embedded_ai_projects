@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 52538957,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBRQS6+4lQTkcNChoKAAAADUlIRFIAAAE9AAABSQEDAAAA0+ZoCQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPtSURBVHic7dtLrtMwFAbgREUKI7wDvBGEt8IOYMiImJXcrZgVsAWzAzMLUohpnrWd+PhPrtMCuhm0avU1ts85dh5Ki+K2ldbKAtm4tQaCtbUd4i72uimsZazt3tkWbBnpZDVAIEBshDoJxQhNEtYWHM3o0qMpJ5gcTTVDlYBshiYB+QybBBQzTI1mgTYB6/1QolDTcHGpJKKwvEE6Pg6kR3NxoMoONQUrB5oskDmQDOS5kEyNC8mKPBkqFOq7Qu5Cg0JqVfEglRrhQiqQMLTHoIq60of6+fDiQ4PCeMSPwnhqAhgPZBVAFYM8gAaF0dGETUcXi01Yb/QghP2wy60wbcF6a/Qr+BQZVBhwd88YlCjUqT7OWxigKAxHE4VhiqIwDDmPwTA+cSizQ5UdahSag1BEYfM42J4N6+fD7mRYRt0/Ae3JMLqY/UUwupjZYE25L1Qu5HeF+nHQnAtZDtj8T7B9gRT0VlJquuaHFoYShfoF3heax8HmcdCdXQyGHQg5tUd3dvHfIBS/UPiTatuBNQx/gNB+o6A8Ar9isLTU6Z4Lu4KC6gZbEF7yw4a4/HAndgVDA55+XCHLAW/T8KJBWGrydNiZ2Cq8wxaDBTkR/eszopMHIVGRwaVhBtgdhPU/AMXjYLyPFt3jCVB6kGWAyoPEgVNnh8aDxBIAw+YYJProQxaHB5cKnh2KOPRLvM4O486H5BH7EKSOH/iVCgwllmofchQKCqojsKagxjLoT0MUkhl0ZxeZQRw6c4HMIA6dymUo5CS0B6Cg4a186kzwVj60u0E61TugxlLtQDqDRyBLQANm8AAUCbjMhTo7TLgFpjK4zC4YplKNw3kaplK9HzIU8hS0e6HIByVWEwtMOhwqrCZ2w2RN7IAaq4kZsuyQp6HZBwUK64ywAWtiJwRqYicEamKEQE3shCwnNGBN4FCDxTPC2v3mOwG9byKxWsEuAlWY6i6STxWmuotUyAq2ESjDVMfu8skwg00ErlLd9FHduFm7yqDuoRah61YZVP1HvQrmGsr+o1oNvQ1T3Q09kX7U9VS3wS+v0I9YU7RiBZshCOGzy4qZMNW6h90UseUcRpU6hKqHbd+8f736IUz1kNHmCo2jqunNH/R4s9bd2xsmV3Du1ZctyBw4N/jZcZ+epqM698cybNqB9XwMHuFYB+M3RakcyOfzBDHCahr0AAsPqmXXQ6Rt5PHjBdph6qmC6S3WQzmMsewroSQejXxt5byKXt/fR11RfLw48B0Bi52Qp5+DrwYg0pCN0CQfwRdqH9RvE26BKTdB4A8cODT7YNLNTaMQ+EfICVD2r6l/RiwQ2HAIuhMgQ+Gr/uUPOik8BGiAXkMAAAAASUVORK5CYIK8DvIH",
+                "origin": [
+                    561,
+                    384
+                ]
+            }
+        }
+    ]
+}

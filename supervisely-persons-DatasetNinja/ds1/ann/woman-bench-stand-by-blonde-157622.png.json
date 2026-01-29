@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 981
+    },
+    "objects": [
+        {
+            "id": 52538837,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBTwSw+4lQTkcNChoKAAAADUlIRFIAAAEfAAACoQEDAAAAU7E4lgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAP3SURBVHic7dxdjuMgDADgRvOQx1xgJY7C0dKjcRSOwGNWqsL2Z5oCscFRDAtpeJz5NAPGNkl/crmEw9rVj9aDDfXWWs2BpruxcynU2eeIT4oL/XkG4DGKICt/jTX7kJgWhIeTEekFWbUP3T7IFED2M6b8qHcQGk0S6hyEZhQfcueEbl4mZLIjd+/QzSMhWRa5Bs0VCur+J0Kyjg/1bEgcGkkfqczI5kLw6lpFP62ioKLgXlAjEj6Cuy8fkj4yrSLQMCLKlLIh2HwT2nN9USUS999pUQw9klwv/YeEJJKb/eMg/CzwRkFoP3QRevXglaiiIE1BcEPsbl7nhJcXIPy2enDQFUPuX4KXdx+jgwxivAtS7LrdOz7h5YVHFWHe6PKkh1R6ceiLIp5BYhBcG8AxCM5hOAaDj0iHNRwoGSAFoTFAmoIMhAIDxqALERSD8DoLjEEfIigGwwpd04uDArWaEhSo9X8DArU2a7Se0TqaAjBhNNcxeoyZ8IfCaMLGjyYQo+fwojkgSFOQFyhk3n6gMOQFSiJopiAvUCOG1FaEmc1oVXHLcEKObZ0XTTibAjRQkECRE3JJQSMFocZBeJgchIfJKQU8TA4a9qJlh0VZJNnQWASZTShiSqNpC4pkLxHNbGjJXzYUK7uqUawVZEAiihQ3kq2iqHlXJxuKZ8pvdZJQPAnYkYijuVok48gyo4QpjRQrSiTmBpTIuVe58CGRQlOlaKwMzVSUMk2jZIrXipLF0jQSbEi2ipKGFaVz7t5V+FA6CViRSCNTJZJppKpEaWMpiVkjKlybEyeSrSKRRIaCNBGlu4piQ1fKiU+5Gp8ptzY3CpooyBDuOF8vRkfQ8wO5KoUec0ndT9/nPNwI6D3Gski0ilCTBUWzgB9JLhQrTsOPYmWXAQk2JA+NImYj4pvTib4Y6TcS9SBFQddNiPTebAy9TbT7UhDpTWXSe9g3NsR3TpsPkvuQPjRS/w2h5kTe3rWB/oJoGj2EfkHPvTHBkSyLRFk0lEV9WeScMfj3WflQVxYlP+/NjEY2JDOgyFet+ZA40YnyIFUA9SdykC6LqjkVsyC8R9eI3JvPE1WJ1C50+RqkW0V4W+FDMgfC28oREF6dJCQOjdzXSNWJUNRlQaYsQptBHkR6/BNewg7C8zcPUmWRYUPovuRB6OblQejmkZD8GhR7hsM2ZPIjQZgSP1o+YLQfdbFnIvKhPr7/x0DqRAdF7xxvDsmnSTzWtVn0CgF+l1gt6plRIk4n+r1qL4Yux0aSkJlVIlErwp5E5aHUtrx6Dx+6xtGrRysK0gxofCJTCtlDI1II5BcgFUc9pRB6Skn1lAr+ofSCH0pXuRAWtw/9AzTdz/N0NsxuAAAAAElFTkSuQmCCo/3jGA==",
+                "origin": [
+                    120,
+                    106
+                ]
+            }
+        }
+    ]
+}

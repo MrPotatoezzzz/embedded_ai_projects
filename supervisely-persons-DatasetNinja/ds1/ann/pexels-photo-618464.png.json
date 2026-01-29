@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1199
+    },
+    "objects": [
+        {
+            "id": 52538674,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBcQSO+4lQTkcNChoKAAAADUlIRFIAAADqAAACagEDAAAAH3VO/AAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAQZSURBVHic7dxPsqMsEABwLBcsOQJH4QhzJDwaN5greASXLij5JjHx8adpwYYXv5nHKvorIzTdGFOWjMVNuWSX10aHsnBuQVg6ZxHWzjmT5z+KfPv44DXL/MH5k8sHb1lWD86PXD95zrFDedg517cRZ75zrusCZ4nzPuzswHF+jcu56QqPJOaFbEAWhTyDLEn8jmkm00sZLgRN4rdmchHngcRjT+YkPrIBriIaSxIf2QD3nMa6JzsKD60YKoOxJ/P7ssCjdmOWrRiqsXKGrpLqJjxVsyaxK2eT6EDikcS8Hc8JCxJLEiufl1rWJHYVnGTyUMXxpJzwGLHtydH6wXuywPkXzvr/yvF0R1NywvGERV9OYxVzuDDinGBY4iQWAK/FLAG2PXkrZqjn5QxFzZ8TGsflW8dJqrlgZWvPczFDPafxeg8WANueXJ6qsjm7rjzdlw2J50asIF6+hzXEa0+2pQxpK05+Gjzb9i0MLanuq4poDC1r7qsOPsmCxBJmcwNWeM8/yRpm9h0M63Zftj+MsiaxAnlrw5LEoifDq6ItZPhaUsrEK/AJCxKDF7K1EYNxKWYw28oZmtKlFUOTMjdjkTKj8FrBMmHTkQOt5qkns8+xbcki4rWK4zroyraK457X/Rsre7KK2P3wo+mYpx8+5fQqae7C6eX/L2H5wxdYJTzfhfXnGPiV+6+y+Vt5Kmfglqkrs5twekO1fZDtXVgkXHOzVs1LBcs2/Pv9YW7H6rVz4xS2R8oanzWJj2AMFDbHp6kZe8+Gv8fA6nljHdkeHNTv+B08H2wrmBezAljgLF9sDg7KW+Gsy5jB7FD2JuzNCxC0DL+jslxigbMXNAJPPZlR2JJ49T77rHDWRTx7PHvsUH7nknlsiFoey3jy2HwxL+J9vUhZkFh6MX2faSpm4e95MbsV7xujF4NgYDlWKfuLovYPSNmVsM3w4Ic8y4u/lfKc4Vcmmi7MGzKLOZjuLDOUtxzLcAfMK85LjpU/I6/cSdiQeMqxbsCMwluWXT1vEds+PITT3YOXkF0pj2Eu9WBzkXkJTyFvTZnlWNB5q2NbyjLc3HltyetVVhErgJcsa4iXUn7OyNyH9xIzOE85HqNkucDJD43w3DbmuYZXnBcSzzgbnCcSM5SDu2kZdobM6f1wDadPNpTyAPLk85Ln8ZznPPMrfGyJKBvOWAUso2wo4snfOmF2mXUl64DjPN7ZlHFSBS15jKvgPswTVgXMUN5wtnl+JN9ayOIK2zyLCg4LLmGVMD/n43S6loMpdrXMY97yHET44OCZeZM/Om0nHAQV5vyba0p46cW8NyMDozMS8xN+ZCfGDD33ozTQoxWWLc/0xFjE2Rk1jb6E6c+3o10XeN947qU6extP+iZwHvJvUXo2ifO4838MCN9+2Yi8kQAAAABJRU5ErkJggnUkIu8=",
+                "origin": [
+                    269,
+                    120
+                ]
+            }
+        }
+    ]
+}

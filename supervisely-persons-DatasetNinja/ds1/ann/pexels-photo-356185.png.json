@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 52539030,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBCwT0+4lQTkcNChoKAAAADUlIRFIAAAE9AAACwAEDAAAA27E3hAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAOzSURBVHic7dtRzqMgEABgm33oI0fgKBwNjsZROAJv6yZEdrN/a60iM7QDU6w8Nl8ijMNgRYZh1a4x+vVvyUYPVYwTE4z/2sgCZURKcniJP82QwZuDY04Or3cIpRo5vMwO6CQWLlyMtikUS5hLoMow10k0lE8wc216qJ9gZt7Qw2eXyV1yeFnB3SSvD+Pb8LqGrhkUa+ibQbWG4V2o13DvHjaAe7OGHm7cXp16A7pG8NcWpivfoeBmtu6leBOYLlNoKBPQtoEqAT0fTEYcDTUb3Kxb/xsjNG/AxCSMyerTCvoWMB2eRPVpBRPrZiuYqBXvQscHtxO2GdxG/F24jXg76PjgJuJomC4AiWE3hOtONoTrTKOHYheu6m5b+LTSoaHMQcsHPR+cyGFkhIYPOnLo+WDgg9MXwt/LFM/BP1g46kX1yUKJhOGKhRcknAZNDhUOxgLocNCgoXxARQItGgokdGIsh5IE+is1HNHwFxIGPEQmBRpOFzS0OBjRcMBCM7BBSw7dC1Bhoc7Cx6j3/iBt4P6D/QoKLJRYqLEw7x4QGMsDAl2M2CvPMPWyd9nm5NFICA1lhhKCBnnlGULuDsEu3qMjsFBioYZcwI4lYMcyYscyYsdyg4ocajoYCiHobhAoTy9A+A5Wg5IPKnIIu1v2HAkisowT+iKIyNtaUHw2tHWg/DZo6kAFuwlbzNCwVh1FQM8HHR+0ZRB2t4fCL4OFD1yU0JNDxwfNkeDABn01qCBo+aDpCEJufpdxwhOWQ3Sa9QB7CDg5DD1BBcCRD7oT9g7pkwKduOVQfi6MjNCUQgVB/5VwLIUSgoEPFu80oaEAoeGDjhx6Phj44MQHYz8Q2gyP93/YB4HoUZNDzwbvxZ4BGnI4sMHABx0bnB0ZtDMEtirp4XAguPj6OL/b/PUw/6ICDccjQb+Aui10fNAsoOoduqpQtoWeD46vQNE7nMjh8iBX/hGAHlo+6F6A+ZUdDT05nGpC4KM4ywcdOQzlENhPQcPICE1FqFtDywd9OVT9Q+SxtJegbA3DJ0BBBOMxIfSSxBwSok9enTALoY/8u4KcKzsj1CdsAV05zDtO6E/YOwwnPOEJmaHngz2EZ4bQEykjnIohuB1vq0EFQV8NagiGWhA+ijwVQsQJY1MJIj7HOSECMt5CGKLTrBTSTwV4FtaDAoKhGgQj7qtB8NbYahA88EIPh2KoO4CKD8oOoOgAQitNRQiVik+AUE35BPjB28gPqPmgyrqJHIYXoKSBP5uafwG5EY4SmPC3CwAAAABJRU5ErkJggvQ/wdQ=",
+                "origin": [
+                    475,
+                    95
+                ]
+            }
+        }
+    ]
+}

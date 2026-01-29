@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1189
+    },
+    "objects": [
+        {
+            "id": 52538702,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBNgTJ+4lQTkcNChoKAAAADUlIRFIAAAESAAACcAEDAAAAfy18rAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPeSURBVHic7dxNkqsgEABgUy5cegSOwtGg6l2Mo7B7W5YuLHwx8QeRJvBoe2RmWCSp8puhgVZMCWkat/STaT6VBNNO06SJDH8ai2CmuSgS073MUGxe5EPDEsy7qnjQWIYvxhQasZiRwExrKTRrXbEOuq3R15vprsZcbh5VG/1rio0hNPCskmL2fI5cNNFNZAb79oayn7GMITQaycgyIxYSu2nDNhrJKALDkY0sNH2FpiM0bcJYpJh1UjEJJpbzq4ndq68navQLz2Ji9+qbkZ/jiTW+TTDrWMRO1DU3Yp24mUgnstVEOpGvJtJBYjMSNBuBG7bfb8ABtbsBA+ocowDDHAMFJBwD9aJDoDRzQ4YC6g/GBA0/mHAPiYMJDsfjSIKt7zwTqox5JjQcwjfqbHwSaH17Muew+4DxB4QHjB9SiHjG78FQQKFwfBMkx+b7A7GU4fO/OYxZOJqj4YCxCcYde5FgIIJmZJYJD+hcFJLRWSaU7+9ikMyQZYAsTDRjlulBY5HMPvCM0HDYKCSzJZC43mxJBpMvMfDptSdZqbEZBj69pu1KRmJkuoFP02lLRBKjkYxBMhbX9BRmojQy2bDbGIVkNKrhUWOQzIBqRNRYJDNhGUloVKn5i2/A6WsxutT8eb8ZCrMcGErNco8xJhpoOrXrAJAYjmLG1UgKw94fVJqBptNxPaIpTItklswyFGZJ1qHYcFRjSQzLMT1slj+vyiyJKCnMI8cwwMyTP6Xhr0+q2DAEM1+XO2TDCUxLZWSeER+NJDHdncw2J0VuRe9qLIExFZp1rh3KDUM2ENmMKTQjnuHzu6YxAsPYfW0xgXmgmGkxEs8I2LQ4Rr5N9Ot7kunojGLz61iV0Xx+HZCMITGDwDFLjRUahWRkhaahM/aOhsfNgGQModE3MwrTsLiRFZqmNmNbi2LGxqCYV2IQmQbHDHRmX92SYnqImAbdgI+XmzwDPy+gMyOSGS4y9tyRzkhkmHOF2Wauxp4fTP0a13xYUppiWiTzmJxneHvRV5jXYQzDZ8N8I29tGKHpZ9P7psk23TymRKZFMs/cseeZ5SLTPY1/QfTXdKeYho84ph1OqwIuM815BUJoGX6K8S9SlCa4ceJuRlxjTIVGIxlVg2FHEyIXmfBeoXwT3gZ0N9MfTHgvVb4xl5rj5KT/26Rs/7rGBEmSeXyVAbbQZRtg/+CtDbDF8LuapkYjHGMqMbxC47ZL/zDDKzS9Y8zFxp10oXhyjUIyks6AP2qQacCt9limxTdguy4wlO0CjTOhgr/ncGNjrjZNjUb8YMM3o3+cYZtRFRpZjem+xICEwPwDMPDgPcG7lrgAAAAASUVORK5CYIIXJu1b",
+                "origin": [
+                    868,
+                    170
+                ]
+            }
+        }
+    ]
+}

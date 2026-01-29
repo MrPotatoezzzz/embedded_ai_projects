@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 533
+    },
+    "objects": [
+        {
+            "id": 52538970,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBKwTU+4lQTkcNChoKAAAADUlIRFIAAAFfAAACXwEDAAAA4pNHXwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPTSURBVHic7dvBdeMgEAbg+PngIyVQwpZASVsCKk23bYMOlqMOemZtJc5aFgPzSx4HsLjme3oSMwyD5Hx8xIcJHfGX5TiGEBwXmwsOA//Cl8G7E/OJPceePm0YOVh/YdZ9mBt2DHyznPs4hP/D5/DpDmevre7wOYcNgu0dDhl7/3zZqT7OcJ/GaoZdGusZ9mk8e75cUs9sJipHBJ/mOB2V+WRkovKIuxTWD7hPYfOAHYJ9CtsHnIxK2IJTUTk84tREH7fhjsanBXY0Vtuwp7FGsFngRFQgbBG8sKmFheBlaiTiDeFlaiRW4TI1noUVgvVW7ChsEGy3YjKTIByxdJkRw7GkwzCVo3I4lvuSuIvj2EL5AaxKxn0c6zKwKQPbKPZFY739ykRlbAcTfQGEo7YUTJRRBMcLvyTuWsHxXUISu1awah0bAvtWsK0PU4u7GRzvnhvCVI3Z8XrstmIygq1gcg1uxmT56lrB5l1xzBaO40ePhnD88FgjtnHsW8f9jnO4kMPxU3B0MuQw1RWI4fh7fjlM9HVPwFoMmzh+dcWN2ydgKkPdZkx18dHbkMNKDGsCRxMJwpbA0ZIrhslTSmw6IKxJHKlfEKZtpPSLYfIUthmrBHavwzqB/SZsE3ixViCcsMs+XgzT6+Q6ug2YfGsyjV4M+1dhncRD/dgk8VgktkkcXoRTNfQ6OjHsVuP04n7IfjmsMvi8GusMnpUZCNscHl6Bc9GerRUIqyy+S1IImzz2L8A2j8cd77gSnF/cOyZwbq96C3wuA4dV+JcY/s3Bbg3+C2BOOn/HG8Ksab6FEMLpc9X36CasxLDm4X7CRgxbAewnzLMrMC+P1mBeHk2NbgfgQ89NukuOHjyCB27SXfEZwYEb7Qn/YdrrIuTSCRsEawQrBHNDMmFuZkyYm6C3+iWHTYXYto55dsdLzF2F1WJuTRpqxQbBFsFMO2F2NR+A55v6DY1gg2CuvWL+buWRfbBHtuOeH7+pf2bbC+ZvsBBG93mog4CwQrBm4xHEpgA8SGJbAHZiGFqC74DZNiAFd8ctYNs61myM7vPNY9U65rc9SPcckCZeGBsxzG7sYFzIoVTw8M9chmuw3NcGCPPmYxW2YtjsOEjO8yiOOVYey31LFPjwWAj2n5i3UVSMVetY14SdNDatY8vC3ZtglsXwR0mY+VK5DLxvsKvx1++feTvbu2DFwq5erFvHpkJsW8cse/vHkDIwc7OCcCeFy3ox9NO/hi0Lqx/G4wqsW8emQmxbxyx7O/yXgZm1vCjM/EIyVIhHoDyXgs9Aef7qCurC0wP+A4M0Xt9LMfrtAAAAAElFTkSuQmCCpav7eA==",
+                "origin": [
+                    58,
+                    193
+                ]
+            }
+        }
+    ]
+}

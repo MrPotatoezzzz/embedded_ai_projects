@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1067
+    },
+    "objects": [
+        {
+            "id": 52538799,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "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",
+                "origin": [
+                    48,
+                    0
+                ]
+            }
+        }
+    ]
+}

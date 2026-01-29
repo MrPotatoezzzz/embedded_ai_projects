@@ -1,0 +1,80 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 52538701,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBiwN0/IlQTkcNChoKAAAADUlIRFIAAAEPAAABaQEDAAAAuEw/OgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAMzSURBVHic7dpNcqwgEABgLRcuOQJH4Wh4NHfvGhyBpQtL3oy/qPQPsUNNUmGVqnwZGrrtoGNVnUcdgqvwoUIYCWJDCD0q2pcIA0r0m0woMW8SyFBC6DAyC3TZNU2ahWBLammiFoLtr14ItjGWJOuCsL1raKIySPeE6FLEiBBbioQMAgoOsSKf8kd+BWEUw+8jGVuH9N1PJMg/Gxli/8jHEyNCWppswXiErDMhQoioWaBnTEmCHpuLkSVJ6NmbTXwp4kRI94uIoomRIOv1ipDtZsLBZGsM/hExdHsJ23hC9lsfeEl2J9BVosMxuq+SJhLAsm1M0gHTpA6BMvZCEjf4NNFXcdu+ayTvcSEqQXw2uQUbrj08FcolGAZJhXLZGZ0kLiYmSXwmsTRJinOWaJLellMBNzRRaTKJE50mIY8YgPTU/rOIyyKA4BCfQ4BEs8iQQ4ByiYl6QMYcoh+Qo+zM95KjMm0pAoqjvkUIWC4s4kQJWJcs4vlEPSIDn+hSxMBk5BP73WSrb0SIEqToCpLlQmpLEYURJ0j0Q+K5xJQiFiMDl2BClKCxMHaXnUa06uirceATQxOkwe+nExliQTKWIoEOlyD/REgTEaDZzaQXIQ7NNIPMq/BsopJimqtxoMnIJhoh62MLAxB9xMsgFiNYg5nWZSApmqLnZQwCNI+NOIysv+hZRBFkAMm4FckEtsNxX2ovQhxN/CNS8cmAELP99IhomqjtJwWSNY/TAzJUR6qBkhr2qn5Iqo0AF8lRjxixJNka3ARd0+PeMSaoM4z1gSGiImLSJIoKP1ewCX4OWtqd/RDi6HB/HkFvbSQJcq4TnKj/cYTKUSdBRvhEkEE8k1iUOJr0TGIwMSFHsnUMyMFuHY5L0PruabKcIGWeV2BJYjzHGUoRR5OeTwwZCpJHR5NtHmSmriI/hkF2Aef6IODORASKt6dJ9Cm6FFFpIf9tFkAyv3yTIfARMYd8/UtJHxNLEy1CVJK4mKRXfSLpeBmkP5FUvJd3lVKJdDSpLuMubu9GnIPxt2AjMs1TdjrxYlX0wkn7mqNOvTPSHgutX3Pou1jXlPjbK8FEVTldNamXQP4DDRe4fXU600YAAAAASUVORK5CYILHoIQz",
+                "origin": [
+                    147,
+                    326
+                ]
+            }
+        },
+        {
+            "id": 52538700,
+            "classId": 6462821,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "neutral",
+            "points": {
+                "exterior": [
+                    [
+                        274,
+                        683
+                    ],
+                    [
+                        338,
+                        698
+                    ],
+                    [
+                        366,
+                        679
+                    ],
+                    [
+                        340,
+                        673
+                    ],
+                    [
+                        311,
+                        675
+                    ],
+                    [
+                        306,
+                        666
+                    ],
+                    [
+                        287,
+                        631
+                    ],
+                    [
+                        259,
+                        656
+                    ],
+                    [
+                        274,
+                        683
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

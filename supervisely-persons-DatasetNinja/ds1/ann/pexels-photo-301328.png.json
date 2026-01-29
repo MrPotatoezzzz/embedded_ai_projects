@@ -1,0 +1,88 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1208
+    },
+    "objects": [
+        {
+            "id": 52538852,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBVQWq+olQTkcNChoKAAAADUlIRFIAAAGTAAAC4wEDAAAA7Rh6fgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAT9SURBVHic7d1dkps4EABgT/nBjzqCjsLRILUPe4y9ilI5SJQbKLUvnlrPsAlgfhu6JaBpnNbLVE3mK9BfdyM79uUyabey/Bqmv15sPMaUVXMSTVab+94mL+NvjsncymeTZ0xrvDiTteYhzVzLrjlhxvZMkGX63aFuby6T9U1ZSDJvA0JbCCnmNjRBsCHtVC5jh4YUfrlMNjKFIDMipNTAZK5jQ4giXMYINvnYfIoxk6HeyWQTg29ULjMlYsx0qPGsxWVugo0FTBBssIzKZXI1mxksKKpRI91YwGBVrJoZ49UkmSDDQHWIaIMkrVczUA2LVdjHGifCQM8lso2XYTLIIBn1UIOkrYPNYozjMjOkXIo+x5v5LiUYOIY0zQs2MzGYy4A5C+mQmplarG3w8aoMA8dgLpMvGniRcpllAif9BLO8TeEQJ8VAcZ7LGMRAC06KgWoLMcYLNuE4g63RIw0Wd8ANxGUsk1nO28cayYFUskEXnBrYZIKNQYzb0vwXZ66CTfXOr3/njd/S/IwzVYXNZd63NeBj029zjzT2vAZ8POMyhtPkmxrwlFC6eQgwTk2SCVuaebKp+UwwSw0yFjFHPplIMVA1xmXyM5tCDWQsZvxxxgg26BEPUMH9cQYIcGpkG/SkAgq+avBTFKhSVHNyE9SINkDS4jJWjRpJBjga++MM8ASkBn85FEqOckxQk2Sm1T+XeTu1mVb/XAZ/MAE20KuZDDVeDWAMaqZVBZdBTyoONHiAm1QihL09NgQyMQQyDiJ4Z6YmizeU3owN7daGhnZrZcKtDQIP8dZWG0M0oWcsk8kSTL6j6WduIllrqEunb/CIs42hLrd+EEkxZk/TezSxashbrp/t5ZnQmlwNOez0N7c8U64x5DB6EkMO14zGqVGjRs0JjGc25LJXzWmMeTFj1Yg07gQmUxNlLnJNONpQ/ttZfpDx84miONzMjn53LnaUCbMp6bFkZkZh0czcXbvcJscHv/8FvtCygc8hEGMh45YNWHAiBjwowowBzAUx0OkFZqAeoWZ8d4NXpubMaDGsNZPOdrPd3l14c5eLLPNr1RUXqEkwc+0w49WoSTROsCnUJBmc8Jvvgk3TCF/aoQYw8x+CqQYyH81Pytd6rTHvL2aen6ASdjYhwXhm43c2TrApnvZFzGWFKeSZzzMYAnmaR4y5yjd3ZkMpKZ7HWVwmpJi3FzGm/lu/wpC+kZTZuL2NHZoQY5o94Xc2BdN11PwyN17jKCZTs8oYuaZgNhRyCmOTDeWpvpvTVzNZsgkxxks0eW1CiskjTJlu7jub0RFXivEUcxVsbkzGrDdhL2OHJqZUfjZSDMlezOTHGNLjXIop1xtSDk4wm7yaVcgxk3ebuHObyZuVUozHjWEyVrDJmEx+lHG4qf/wa4L5K8Y0W/sWbz4TzMPEmHqbPmxnCqK59wxKGtPUyVXXcFN33nczS8hztXEtodQhtfnSGY+bepB7Qc4RTX9KC6LpTylO6nDQmx5KCq5NNz2UkqIyoZseSslXXcG3hFTCVuZH1FDX5lvUsNUh5O+oIajNP60JZNNNj6OYah67oaaQKhx0HzVP6k61oD9aEyhmlIEdxZihoZBRlqOdNwyNJ5ksvjujYrSgkGHBRyqTR0NNG4LhUJMey0bDFkhmOGw+wRQJhkSGxQFtqIeGNtQDQ7xMf+nQJqcxVSKhXqQxxG482//7sKDY0dkqVAAAAABJRU5ErkJgggc3bkQ=",
+                "origin": [
+                    322,
+                    43
+                ]
+            }
+        },
+        {
+            "id": 52538851,
+            "classId": 6462821,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "neutral",
+            "points": {
+                "exterior": [
+                    [
+                        407,
+                        171
+                    ],
+                    [
+                        390,
+                        223
+                    ],
+                    [
+                        392,
+                        232
+                    ],
+                    [
+                        405,
+                        239
+                    ],
+                    [
+                        425,
+                        244
+                    ],
+                    [
+                        431,
+                        243
+                    ],
+                    [
+                        451,
+                        187
+                    ],
+                    [
+                        447,
+                        180
+                    ],
+                    [
+                        435,
+                        175
+                    ],
+                    [
+                        419,
+                        169
+                    ],
+                    [
+                        407,
+                        171
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

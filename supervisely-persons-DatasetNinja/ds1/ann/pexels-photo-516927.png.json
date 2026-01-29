@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 52538731,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBrANT/IlQTkcNChoKAAAADUlIRFIAAACqAAAB+gEDAAAArUFFggAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAANUSURBVHic7drBkpwgEABQjQeOfAJ/En4rN8gtn+WnUJUfMJVD3CpjZxR1FBrsdqUy2YqXWd/OCLTdva5jVa2b6CpsS7ACy2AAR2cJ0NPZAACZ64ciYya4mbijspo4nmGC9cQDi0cqT2tHVp9g4HB9gaMJ3sJ+OWTmRfACxxFMsD8NlshQkHl5wlslL4IKT/sEy4njkkqwYPFc3I7Kc6xKcWLIzATjU5xgjddUgn36RMHCuVkYSCxXthRWK7cU1iw2HK4BZcHi7dDHELJ4C+sxsgnWO+6eDIC+HefmwN0JywMPJ6wPvJ38BJsjuzwfdRuTxpDlOmTH4i7HTcj9fSxC7ljsXoZ58x5zLN/HkGNVkPWHYZthw+JIcxzVn+/WCY4qyudmKe7SHOUxl/s0y/fywOKxIENJtjexeje3r8S6IBuEbZIRTTNS8lPGMrhncctivCcB3iCGNCMl7/4Flv85YgXwO+DW8xvC+pGJdDaPPxwB2yy7gKs0T9M3KLcstiwOm8TK6ARHnIewBu3MPc4dj8OKzXNYJ9XKXyM2D3aHBfV3cuNqKuvH4lsyq+na5cBDlvug6+VYRzzey8fzcxubBP8ksp8gj98GDvcoq35EeUBZDgbl8TPK8A3jZmpkGDuMaxZXJmR/C8GEEfQsWdywuPrC4uplefyoHHcIMg9nHPfBHMf9+6+xYbG+wL9Y/P0CD0T+QWS/+OVyrAwbGusdj6es8INkudMcdixu/Ys9Y//pVvoXGlsim4IMe7YhiyAmCTY7jgqQx9G3agn2ofKtbJf2isW+EfoON55ytaza0FizWHnWdB633xJZsljQWHpuWDxH1lJ5jhWdp1i1pyzYDAu7U5aXWJFYlGZL5eYSy5dhUZBpM6kLcnWZWxpXXBbIkDiPpdjgQ+Z5Onnd3ax9YOvX4DbL7l3srnB7zmrZh+MjHjyWsN4EOzxVUpIFPO8X7ramIC9D1jRe5i1orGDr9vacDWzfmrRUnpunO2eYWdJY+LGm3Nqn/cIq4OXTM4dXlTEvB505/IcnwT2VwfN6zZlnsbI+sMR5HmpeR33O602B6WfznKDAWe9YPAObYLOwnXaecU0w7Lk64foSB8+n1fiINfrmlS3K0dODntuQ5+3TfucPINq9ZchlnjIAAAAASUVORK5CYIL14smv",
+                "origin": [
+                    523,
+                    217
+                ]
+            }
+        }
+    ]
+}

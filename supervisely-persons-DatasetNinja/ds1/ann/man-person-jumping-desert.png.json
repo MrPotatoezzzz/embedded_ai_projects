@@ -1,0 +1,92 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1240
+    },
+    "objects": [
+        {
+            "id": 52538725,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBlgJp/YlQTkcNChoKAAAADUlIRFIAAACVAAAAxAEDAAAArL7xXgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAI+SURBVHicxdc9duQgDAdwiAtKjsBROBrek2VSpdwr+Ah+bxsXvNHafFmCfzL2SxGq5DceS8gyUdS0qWHZOJoDFp7ACNlD6a23Rdlnb6vyNHe2pWtFLvTUtF8rciaaiGSQHf72puhY3Wb8V9YlaIGZdMPXpoGpq5aSWUEye2XHwPLbE4EL0w2Hsh5LlisH6bYMguzP6FqQfMMVmAxsgE3ASjIzMJTM9wlS20gzfdw6yKT18THJZKb9Yz1YLMXn1la8aK36+vPElrMGppC5ZqxYHpgG1vLh9uZA8X/L7D17/OC7yDjB1/Briy8tF38dLc6jde+HvmPxtaXe6g/+O9afbeGi+aH02NzweK9bADa2S3lDpBlgFlhKuTsUAzAabQJmgDnQ4h5YAEZji9fzAIQVZoGVVEQfeGAlFd5rNSy34ThlqXCzwBywlMo/aSmVD2B/pKU9dHNIuj+wBdis5WNLJRltA7YCW4DNqYjCYr2a2ZotcltKlr0F0TD550B8d6dFYNSZFx3IbAG2SbOiPfKUaERrZZtES5dpUrR+sRRklWZ54DqJ8sDVPNtdNcMCtynWn7trxi701djp2yzXMEpzwGyrg2cPG5kvaTtmDpgpZpnpkrXlh0jIZl6Zu2vzaRaYuWi6do+0pTeFLKT+kOahbYPZm/ZgZpI5YF689VPKRf7HpMsbPpgGZro/JsdvFpjrBpIjs4BNTBDhcbZhXT53kjCXe7ifIAIwkgfVt3ZlSnmncerxZpiYlLOyLPv6D1w9mHcM8JB2AAAAAElFTkSuQmCCa+s6OA==",
+                "origin": [
+                    648,
+                    380
+                ]
+            }
+        },
+        {
+            "id": 52538724,
+            "classId": 6462821,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "neutral",
+            "points": {
+                "exterior": [
+                    [
+                        735,
+                        453
+                    ],
+                    [
+                        741,
+                        454
+                    ],
+                    [
+                        745,
+                        449
+                    ],
+                    [
+                        746,
+                        438
+                    ],
+                    [
+                        744,
+                        423
+                    ],
+                    [
+                        729,
+                        406
+                    ],
+                    [
+                        710,
+                        402
+                    ],
+                    [
+                        719,
+                        415
+                    ],
+                    [
+                        723,
+                        426
+                    ],
+                    [
+                        724,
+                        435
+                    ],
+                    [
+                        721,
+                        440
+                    ],
+                    [
+                        735,
+                        453
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

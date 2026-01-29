@@ -1,0 +1,46 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1203
+    },
+    "objects": [
+        {
+            "id": 52539063,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLmQBzGyAwkA/fO+QWk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyDnt6eIYUjGn9NJewcMKPKwJhXp3nvQJSrSGbuLsOaYhqbiUW1ZfSKjs34KfXN7+VjyCF+e+sel9kNe+8/PywsRf135vjl42j9/4QeJjv9m9xcpapsXBwhpZqfPKumaFWKmK2vAs8pPbdMxI9FrEtUuKu451XYjgy3K7r7D4qOymRRILJV9wXgpoeDPNO+ypzHLml+azo8Vvfc8omzXNTdmGv//yk3sl8T3VsTPrUndf+/8u7vvbbQYV96eU5Atftqr7nfqZdbb+lZrGVwf/6e3aL1xX7a7PYytmkuiSWQL0FoOnq5/LOqeEJgBl9ndZ",
+                "origin": [
+                    511,
+                    481
+                ]
+            }
+        },
+        {
+            "id": 52539062,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBYQGe/olQTkcNChoKAAAADUlIRFIAAABHAAAAoQEDAAAAr2MwwwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAEJSURBVHicndSxdcQgDAZgeBQuvUBe2CSMBqN5FEagpOBZ4XLSDxd05+SovkISEmAb01c1vCyJHCXogDJUkUFDBySBRAVq0AlJciTZLyI5ILmL9/OzuOCOgjsKbooc4h7U0PSQTDdLBonTSFlReS77Um5W/a1t1ph8OQM/iycPD0o8hqiDbw6yN2WocCuLtmv1pj+gkEUx7ywqUGVZai91+r+JgiJ6V25Rm2QhoylCQZG/6+Qz+9GuaMQFRRGiVVaRg7ZFDaqKCnKHsqJDUYKM9FKhdFOj+8Pu8veXa/H3GHIXqv/UdqFi5FsbytDB8pMSxOiXBZ2rYluFBt5RUZQVHVBSZFZ9QZ+CbxIJsvwEyrbWAAAAAElFTkSuQmCCdjmSbw==",
+                "origin": [
+                    532,
+                    469
+                ]
+            }
+        }
+    ]
+}

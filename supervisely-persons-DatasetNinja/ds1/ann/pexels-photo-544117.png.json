@@ -1,0 +1,132 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 52538781,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "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",
+                "origin": [
+                    423,
+                    150
+                ]
+            }
+        },
+        {
+            "id": 52538780,
+            "classId": 6462821,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "neutral",
+            "points": {
+                "exterior": [
+                    [
+                        520,
+                        405
+                    ],
+                    [
+                        516,
+                        426
+                    ],
+                    [
+                        533,
+                        435
+                    ],
+                    [
+                        530,
+                        454
+                    ],
+                    [
+                        511,
+                        469
+                    ],
+                    [
+                        511,
+                        479
+                    ],
+                    [
+                        518,
+                        490
+                    ],
+                    [
+                        506,
+                        500
+                    ],
+                    [
+                        499,
+                        506
+                    ],
+                    [
+                        495,
+                        522
+                    ],
+                    [
+                        489,
+                        549
+                    ],
+                    [
+                        492,
+                        566
+                    ],
+                    [
+                        538,
+                        593
+                    ],
+                    [
+                        573,
+                        601
+                    ],
+                    [
+                        595,
+                        592
+                    ],
+                    [
+                        643,
+                        498
+                    ],
+                    [
+                        672,
+                        439
+                    ],
+                    [
+                        663,
+                        397
+                    ],
+                    [
+                        585,
+                        373
+                    ],
+                    [
+                        529,
+                        377
+                    ],
+                    [
+                        521,
+                        393
+                    ],
+                    [
+                        520,
+                        405
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

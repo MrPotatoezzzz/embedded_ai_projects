@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 52538874,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBtwRI+4lQTkcNChoKAAAADUlIRFIAAAGGAAACgAEDAAAAov9NJgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAARfSURBVHic7ds7kqMwFAVQXF01DrUELUVLE0tjKUw0qUIHLjPtPwh97gVZYJCSDtqnCnTfkwCbqnIP0f2O1vNP59BX0dU4ONxAd8HF8S66EyzkQ3QNKvRTGBAcngA+rONLoOf+Oo2uA4V+iwYC79NAcz/2BHbqvdMAK0XTomPFYSAMIH5ocRwIJHVBi8HkQnWih6KhRRsXQwBM1o8l4pV1tMQ5KoQl4tNrTS4wvcoWTUxoWtggKg4jYSLCjiMu7MmNRzia3GiEYxGLcBTHBBELXY9FTYsmLMYg1oUOYYJgXCSxCHkxLqtY6C4RjtBeF6aJcOgijahDQtJCpRFNSOg0og0JF5ggTAC4SneKCJW7q3RTC2fpBlsqlQi1VA4hnCLUhLxwg1Ap0sJdVksLdxyhUuSFWKVQHuEvRV5oj/CXYgbhK5LtC/eqex3NxoVYVLQLClXEB4X+MuHbDopIIXzXlkUsI3wbIS/UKkWOMw+IejHhv/TZuvBf+vi2gyLSCPd2UEQRcSG+Trg32yJwEaqSIvKL0F5bxDZF6Mpy40L5hefGNqngjyqZELsVgUUxmQg04TqF58aWF0vfbi8o1LeJOpUQRYxHu23h+4Z3tcLsVni2g6TCs/zsQdSrFG0GYVYp3MXLCxEQ7l9zpBXu0BcXbRqhQsIU0R96aeFsEFqE7ibcDbIVEXoQ1zmbMIcQy4tmGaEyCB0WZrfCsTRkEOGm3bMYL1h7EeMFazeimS8iG04SEbpqdwsRE8YWkhaKFpoWMTAS0QBHX1BE4xiJaBwjIWghaaGiwl4adAYRBbaIB2iLeIC2iAdoC0ELSQtFCx0X1qIIgKEA4rAEEMdsAQRoLYqCFpIWKoPQtEDABGHYIhkIKPKZAiqSgRCQOM0SEhL9RlcZhIZE/7EwBmYJrKz6AiuSKaIhy2qeEKAwM4RckXg3iMogNCjOtHi3FAi2J9CGejdhEfFRTxbo4rMd0RQBi3ZjAu8PXpgiYHEqAhbnyQLenYsooojvFaqIIj4gUFAE/DBqzn6OX+8+haCFpIWmBQyeAp/cp8An9ynwyX0KQQtJC0ULnUHg4CGIAB+CCHCyICJ/CEELSQuVQWhaEOAumMjvd0VMgFMFE/ldCEYYNvK7UBmEZkQ7TTBgoqDK6vbEixdUWRHiHy3+Pv7WcOm2mhbyLQQmjrR4hIC3R1vxQr+E+pBo7uKCi/r+uQveUA9BNO39WE74On25iQuxmV9uKVTEZn6+CsOI01XUrOAup38PSLSU+P20qFjxGmAL0qKZJcSHRJ1ZSEhUmYX6jLjME3qVAgHZBbzAZRXY4pNbYIsPL06ZhditkJAwGxRqV6LtCV0ELCCQRTQbFHojQqxSYPv5PDHhF+QaEXVfKFpIWogMArowGQj+7Qf+nQz+vY8J75bkEAoQVRG3IXcrxCfE7DfCcgj+zbb9Cv5NwxxiwnucvBCrFPHJmi+qP6rRpIhtVAlEVcTaRBBsRvQf3P0HTqPREGmOwa4AAAAASUVORK5CYILAZQAV",
+                "origin": [
+                    410,
+                    159
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1149
+    },
+    "objects": [
+        {
+            "id": 52538714,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwB9gIJ/YlQTkcNChoKAAAADUlIRFIAAAB+AAABiwEDAAAAO8W01QAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAKeSURBVHic1dnBjpwgGABgiAf2xiPwKDwabvbQ17KnPfYVbHro1U0PZRNWKugK/y8COtq0JjMJX8Z/fuSXAYcQf4iewEONBaDWdgCYtf1B4NYORTBFGDHAzDYgLErEwZAFWQSLgDrQF0NzHHwM818CwX25BxQeyg3IVMF0WWDHoakCcgwYBoFBIfDD0KEzYvAfiG867sFSA86IQc0QTrIIKAb2CbYFXxJSkRjW9lJETQCLYi4gIuhgzAT0GIa4a0nQMK8lsyLQLIwpaLJgT0ALL1gNdAmAQftTwO4ADmC4CQQA/Y+AuQNGBx9r89sO6AJIq9UnvC4gA1gIPzH8mGEow5r9L1fKKoI3V7kl6LcwvfgFsAZ9dyWUBb0D3dpbswcKg90HlYavAaSH5xj0BC9F+HIERCW8FCHMMZp7oPswOJjWvxlgKZAxNBUwEGkioMeBnAQdg8IwtbZgLoCo+zoJIh6XGZ4jsEkIZalpGr4HaDy8rWB24D0Am+Y+APwsfGRApMHuwyhTwDEwCPoMNBAGsIbZAWXt7wD+F1i9Bmg9MAB0mmhW8EulpwDznvVJIghXYHwiCMh1wI8DuwDchR83oIogEZgs0CSIx8BVhHEXxdSDSgHLgvS3bLTHewCGXZg6Zug56OuBL9D9fSDHgPnZd92tVYMqgoQwnAFxCroHgC/QR6DdWxkGAOJhMCdBRzDmgSVBHgV7C7S3Q1MFIDG6B0M9uLsJ1FgFqBm6PPAY5AztQWAxiFpY2y5gBTRZYB7GAtAYmgoYIdBKiJ9tuiwfhxYGVbaj4NlmDfQQ5Bb8ViUPDIA4DpsYCoPfmMHu+xXwelAMjVsTIrACje0WZBEsHNvDQK4AgYHVAAfQuFWNgQBrjKiOSPiPyxSnde9/AO3NYkDilu4SAAAAAElFTkSuQmCCTsM3iw==",
+                "origin": [
+                    584,
+                    367
+                ]
+            }
+        },
+        {
+            "id": 52538713,
+            "classId": 6462821,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "neutral",
+            "points": {
+                "exterior": [
+                    [
+                        683,
+                        534
+                    ],
+                    [
+                        688,
+                        530
+                    ],
+                    [
+                        688,
+                        524
+                    ],
+                    [
+                        686,
+                        515
+                    ],
+                    [
+                        680,
+                        508
+                    ],
+                    [
+                        682,
+                        498
+                    ],
+                    [
+                        678,
+                        491
+                    ],
+                    [
+                        670,
+                        491
+                    ],
+                    [
+                        670,
+                        484
+                    ],
+                    [
+                        669,
+                        470
+                    ],
+                    [
+                        664,
+                        458
+                    ],
+                    [
+                        652,
+                        453
+                    ],
+                    [
+                        630,
+                        455
+                    ],
+                    [
+                        624,
+                        464
+                    ],
+                    [
+                        618,
+                        479
+                    ],
+                    [
+                        618,
+                        495
+                    ],
+                    [
+                        614,
+                        504
+                    ],
+                    [
+                        614,
+                        514
+                    ],
+                    [
+                        605,
+                        522
+                    ],
+                    [
+                        606,
+                        529
+                    ],
+                    [
+                        612,
+                        536
+                    ],
+                    [
+                        624,
+                        539
+                    ],
+                    [
+                        636,
+                        551
+                    ],
+                    [
+                        649,
+                        549
+                    ],
+                    [
+                        672,
+                        543
+                    ],
+                    [
+                        683,
+                        534
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

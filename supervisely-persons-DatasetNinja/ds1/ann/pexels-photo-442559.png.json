@@ -1,0 +1,144 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 52538719,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBzAMz/IlQTkcNChoKAAAADUlIRFIAAAGgAAACSAEDAAAAHQeiaAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAN0SURBVHic7dpNcqQwDAXgTGWRJUfgKBwNjuaj+AgsWXTB1ITUNMZ/zzIWxpHW+aqcJ9nthv748NbX9q9e/j+4DHXfaJvYkK4UjTuai6O9TYnro6D/JkWRUP9Gm6obwUObj9D15SN0z5PQeERr3Qht1AVIs6G5brTxoakFZBpwJK5AS90IO4+uQNjwXYJUKfT5MKRLoS82NFaNurMphP5YBNjvJGQ1iRVFT5Z7UeXpkZAWtJcSBCLXwVIG2YcyciXgQwMb6iwD3MJIyB4JXTeaGkRx8zsQ8lXjGjSXQt19SNeNpvYQ9ADtEgR9Cb8PzWxIsaGpaoQ9u70CYU+arkBzOXQ6y9WvRaeLOWRqR4yvQoznZ9iQcyIjPl0SGfGVRf0BKTaEmnsQ/hOEXISOXj7SFaLDwE4NItiQ0PFgKYs+H4PwPUhCHRvqudBhdXjkfGjkQuZ1ryTqDTTVhgYD6XLodBnFJpaEzBzAGwsFWe9/kU9qPjSeEXIvp6BzdhuyOSjIWhzSKAoaHCaauRPF9qEbzUHjeh+0xTrlQeH1ubKLrs+HQutzvUzbS1GQTl9dsL9+FPin/Mg/6Z3f+DsVQt4kAqvztzeEfIezb/C+yxdfEPmSsE5JoxQFeZIII88gDUHkSSKMPIM0hpE7iQjSLuPfgXs544sh5yANEeSML4acgxRFrvhixplEFDkGKRaeM4k4cgzSEEd2EgDSZxPeTHtZ8SHIio+EgPDskSWhEUBWd0kIMPZIUBCSuLUNMaQoSJuog9B8AeohtFDQaY5GCK0UtJGQ0d3wB/u7VDbCBuI0EiiaKWihIKO7HYhWCjK6OxRFEwUduzuiSFPQobvo6BndxdGLDR1GAvlw+ikSmijo3d2uGfQevqEZND8F4YaGlgbR6yEIP/aIaG0QbYJ+avpBCR9P1SMlaC/dIJpzUN8QWp6BhhT0ErTX2iDaWkRTBkoytSMlKBuhD8LYkRZ0REl3D0F5aBbUOuqbQosgQTeh/cvGKEhQPkozNLQ+ACXeEQU9BG28qBPEjfrG0CRI0E1IpV8jBB1R0ntZQdlICxJ0E5oFCTJqESQoH70EPQUlPyRgRKugp6CuYrRxovT06kfpB4ugxyC+MeoE7WhoEI2CMlC6ISLCEUFEhCOCiBJ/zZOBOjbUs6GBDY1siGAECboArYLY0V9QeZHN+bCgzQAAAABJRU5ErkJggqlCrPs=",
+                "origin": [
+                    411,
+                    215
+                ]
+            }
+        },
+        {
+            "id": 52538718,
+            "classId": 6462821,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "neutral",
+            "points": {
+                "exterior": [
+                    [
+                        407,
+                        799
+                    ],
+                    [
+                        697,
+                        799
+                    ],
+                    [
+                        686,
+                        776
+                    ],
+                    [
+                        688,
+                        746
+                    ],
+                    [
+                        672,
+                        695
+                    ],
+                    [
+                        661,
+                        644
+                    ],
+                    [
+                        661,
+                        594
+                    ],
+                    [
+                        662,
+                        559
+                    ],
+                    [
+                        656,
+                        535
+                    ],
+                    [
+                        633,
+                        520
+                    ],
+                    [
+                        628,
+                        498
+                    ],
+                    [
+                        624,
+                        477
+                    ],
+                    [
+                        610,
+                        465
+                    ],
+                    [
+                        584,
+                        474
+                    ],
+                    [
+                        579,
+                        506
+                    ],
+                    [
+                        554,
+                        518
+                    ],
+                    [
+                        521,
+                        527
+                    ],
+                    [
+                        517,
+                        552
+                    ],
+                    [
+                        503,
+                        567
+                    ],
+                    [
+                        487,
+                        602
+                    ],
+                    [
+                        470,
+                        641
+                    ],
+                    [
+                        446,
+                        720
+                    ],
+                    [
+                        428,
+                        738
+                    ],
+                    [
+                        409,
+                        778
+                    ],
+                    [
+                        407,
+                        799
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1202
+    },
+    "objects": [
+        {
+            "id": 52539149,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwB4AQf+4lQTkcNChoKAAAADUlIRFIAAAIpAAACewEDAAAAHBuToQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAASISURBVHic7dtNcusgDADgdN6iS47AUTgaPhpH4QheZuGx37TTNInNj4SFEVRad74xAQnh4tstG2b7jnv+LyHMQsOs55SP7ScmGsbRMP4Uox/Muan6ZU5N1b+Hcm6qnsx2hjFPxtEwnoY5MVX6qZyZqlfmxG9sX5mJhnE0jC9VPl+V8ql6Z4qnanuPIZh/O8Y1ZeyOmQdgPnZK4fojYj73TFmp4MXoA+MbMvtlU1i4aJh9Ym5l7QAvRo3ImCNTUkYrMnMzJqCU1D9WTCAXtoJtXJh46CDjhaFjbJBB71RVGXQ1FgbLoPs2VsyhtxYmy/iemeO5Q5iLGGRNJ2L0iExEwfaiNEy4ZeucUZUZ1O4bq31dM7H8JmNQpwYtTG3GRhXUhAvTCROvE8LUZzD7FC9GsWJMLwymheTFxBXUG2NWTLQN3VDnqX4YNyIzwRn11xi40g+D2XttLwxmf+mGwewv3TDziIxnxThWzMSKQSj1mSHPvbwOZZiqVZ/BrBsiJvHuEFNvLmAQv/EFDCIbhImHFmYABlGML2AQGU7E2AQzs2L8iIxjxUysGLhyASMvBeKMHMPjjGfFOASjqzMTKwahJBjUibU6g7ruEmdQ95uqMzMN41kxjoaZCJgVyUTOU6vBXfyPMIvG3dmKMPdPR8KgkCgzs2I8kom8v3GsmImGQSp1GfTHSj0wcyMm3Ce5zhnFnin4xpIXE7pyMCRT8IklERO6xkPElHyMbWgYW43x7ZjAT9w9E9phiJipGRNKze6ZUEdbwKh6jMczmoYxAaag3hAxloYJKCXbHQ0T7kQdlgnfYWzFhA+JaEbVZGYsE1TQTPhh0ExYwTKRh8EyEaXNB3cxBcfE/8GPYqIKikndNkAwloRJPQwiN1MPA2eSDwNnkg8DZtIPA2Z0moFueGkFyqTuxiOYzJig+6YlYXJjAvZtiobJjQnGpO7D/YQnGROIMXkGUP8AY4IwmbSEMoAxAcooZEwARoGYOcdYEgY2piwDmactP1WKhjEwJpcOloQB/sI5Jl/4fiJd1dXFTLqqaxrGQJn0OrY0DFhJMuBlk04HIga8+rbkOgaWiRyjrmcS6aBpGINgEqOy/TLxLhulUDGxfECkFD8mNleYBCdkInWdiMGUG0ImUteJGIVlwh0pEaNbMa4iY9BMcOXwYiyaCR5e2zGhvROvhBhsDf2OIZn5wGBLMSVz3PN4MeiK/h2HBdiUOcwVEaOaMvt8IGJ0ITOPyKxVGFPI7DrS1szKmLGlzHu3xIspVt7renPmbQG2Z+4jMisr5rUej8MsrJhnrShqi6sxRY3ob6ysmN+SMxRzp2UKu+tHrCMyj3RgwszC1GYWjowaitmE+WOMF0aY7pk7JaOFEUYYYaozqzDCCCNMNiZhLmGUMMIII0wivDC1mUWY2szGi3HCJBlznpmFqc0swgjTPfPVKAnTCXPuTpEwFzHL2dtfwgjTnJmFSTFn7xTxY9yIzI0bo0ZjFmFqM19v2jQbZhFGmJKgY4wwPTBOmAsYK4wwwgjTF0OgMGNuwggjjDB55j+AEdFuwsVj1AAAAABJRU5ErkJgglXcKsQ=",
+                "origin": [
+                    484,
+                    165
+                ]
+            }
+        }
+    ]
+}

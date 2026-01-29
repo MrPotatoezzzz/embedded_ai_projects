@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1198
+    },
+    "objects": [
+        {
+            "id": 52538721,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBEgTt+4lQTkcNChoKAAAADUlIRFIAAAJpAAACKAEDAAAACLvuWAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAO6SURBVHic7dxBkqowEAbgoXhVLDkCR8nNXjhabjBXyBGydGGZV8/RARXS3aGVAP+/mkX7OUrSZByTry9Gqhij4xSyUsf/OSlpTfyJ0+HsjbuoaPdfLkavwdlfLipowy8XY1jOmRGndXERBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBNlR/uhyre6Gxk6XM2dVTmVz6W+q0rm+aM7JHtGmNhpX4m3IypwhuCDS0ruq9TnRpG3SW9JrIdeRnKgHKHPE/vtatp3+ej5Ar8Z1NCdpKcqcJTbz1+lnm6hOcpU+59biWvKcBtG5C1cuOexFnCXPQZAcu1DRpzRYMecJjt2hKvoEDgl3vRLpYWrEXLLECBqeIceJnHPJkk7IEcUCrmIcXdLy23HDOKhFmWuEXE/XMDnD4AQ3C8M49UXIUW+M4GbBGHZSjpzfMi58nnN8zutyZKmM66kiy74zvoEji4rnwpE45n2bNVD4y4CVOOaN9g2c2zzHvG+De07HXgZcudqrcpYolnHf1MSQcZy1NnMZcOO8LheK5tLdsdXnnIRL95+1ufQMX5tLz6GWHOhv5vqiOafDRS4XVuAaXa67c/7DHGuBF1W5WpfriuYsn2OsF4e37nPcXzbXcjgbz0zOMrjqVsBYL+py1aDNv5ZWlzP3ik9zLYMbnpLkDIMbTmPuN82NrwSDC7oc5yNNkhu9IS7NjY/Qnh0HI87rckQ/lnJEi2JxDV2Sy/VJzkg5p8v5lPYw7DiXIj0v5FxypDRiLjlSnjhPc8lZK+eSA8/IuV6Xc7rcTM0UNzMKHqpSlzaDS12LHM7rcolXm8MlhkoWF2a5mMPNv9osbv7V5nFhRmvyuLmu0uVxc/M2l5upY5a9cNMXo34p43JBl5u8GPncZGFXDNfrcm6izBbDeRY3VbWAe8xlviBkcIlMTMfXUbwaN9HgC+ImesASbmKWtfvl/MY4WxD3Oo6L5ir6MamA0+PaZZw/MmeWcc+3RnCrcU8dauEce55l4PK55z+N1+bchjizb+50XG6pps1dwOlwizuANvcwacHlc11xXABXIrdce+gB4FblRp+SLfooEFxxXDgm14FblzuDK4+z++eG/gkOHLhNcB7czjmV5V3p3BncYq4FJ88mOAtun9zif6be48GBAwdOjVNuUOCK4d4y7tpjcCddLoIDBw4cuKy4w3HmINzpaJzaeuznKy6H4hZ/le97+NHtnhuleM6AA0cmgNspdymdU9QK52J/KO4f0Cykrsr9niUAAAAASUVORK5CYIIoBPGk",
+                "origin": [
+                    353,
+                    247
+                ]
+            }
+        }
+    ]
+}

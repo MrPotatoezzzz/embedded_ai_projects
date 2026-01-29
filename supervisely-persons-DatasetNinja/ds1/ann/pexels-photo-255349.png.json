@@ -1,0 +1,136 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 52539146,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "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",
+                "origin": [
+                    441,
+                    21
+                ]
+            }
+        },
+        {
+            "id": 52539145,
+            "classId": 6462821,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "neutral",
+            "points": {
+                "exterior": [
+                    [
+                        1114,
+                        799
+                    ],
+                    [
+                        1145,
+                        734
+                    ],
+                    [
+                        1074,
+                        750
+                    ],
+                    [
+                        1036,
+                        730
+                    ],
+                    [
+                        1004,
+                        757
+                    ],
+                    [
+                        976,
+                        733
+                    ],
+                    [
+                        935,
+                        744
+                    ],
+                    [
+                        944,
+                        697
+                    ],
+                    [
+                        858,
+                        686
+                    ],
+                    [
+                        865,
+                        757
+                    ],
+                    [
+                        845,
+                        726
+                    ],
+                    [
+                        823,
+                        740
+                    ],
+                    [
+                        823,
+                        758
+                    ],
+                    [
+                        782,
+                        724
+                    ],
+                    [
+                        739,
+                        738
+                    ],
+                    [
+                        689,
+                        728
+                    ],
+                    [
+                        670,
+                        642
+                    ],
+                    [
+                        621,
+                        626
+                    ],
+                    [
+                        578,
+                        668
+                    ],
+                    [
+                        526,
+                        690
+                    ],
+                    [
+                        498,
+                        751
+                    ],
+                    [
+                        619,
+                        799
+                    ],
+                    [
+                        1114,
+                        799
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

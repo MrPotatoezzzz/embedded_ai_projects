@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1120
+    },
+    "objects": [
+        {
+            "id": 52538823,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBFQTq+4lQTkcNChoKAAAADUlIRFIAAADSAAACNwEDAAAA1EGXGQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAO9SURBVHic7dtdkqMgEABgLB545AgchSvtDfBoHGGPwBF4W7fKko0mRkC6xY7mZzY+ZfLNxO4GWuMoY/OmGLwFCxIPDjQROtBUGEAzIcChBDAYfjEPhhLAYOTFesSgQNXFoEAna8umA5wEZmY0t99GggqzaUDRNg0oKGLNppUHYtvKg/Qia59s9snmiOb/R+Mn2IPjsNvYttlDzcBznmx6siJdDTgIqNGAXjcZ0CMFOHwfZkDuEqmn2hwHWzSzOT+LgyQCvFhUgP8wzNs6muZu6+Hld1unLwL8oXIxB4VZykIvtgrGLLYapwBbg5hALEphVVGFmIEtDiUvqEBMIhaHku+PavoEMydYoFk6DP0hxk+wdEp01SaJpoimETOJ+VpLS32+pcOQ9iyqifPNxia/Nm9tran3Nfu1bZOpubMtW3/+lZb1nu5sa863/mu7bai1bGzDT7C20rJ1lDSRPeYqTWbmT7Cu3obYeqINRAtUa08wW229OcL8+aYBE7l19aZi64k2pCYB47kFqrWJiROMV5u9W4Bt+kdOam42jZhZm492F7rmWDOIjXF64KvxmN9v6GuzHgtBMDUW3tTaMtHk+JmwOcjEykJqumzM/IGNcZtZy+INM5WYrTaZmDvE0sXiiVZ/baPesGspA9HSa2+83lqiWcQc0TzRqF8iesSwE9RDTl6zE+Kk2HvMIuaI5onWIZYUe4cNRAuYtUSzRHOIeaJ1iPVr+4uYM7cXw9qsKtjt99t7E1rb0qCigurbJ3HQ+mXi2LUxzOYkomKruVL6Zn6P+eWo1RVsTrDfYy5aGXvMLiOy2+YE7YEmK8xl1rKlJWLmC9YQbZ4V3Q6bXt6S6I+026wY9tqc4F67r9OSacRuSdi9JhDjiOU3vMSW36SQmEFMI6YQE4hxxBrEGGYGMY2YQkwiJtZ2n3YcsQYxhplGTCEmERuTaAHjIV8P0cEr30Hco030Q2466lk8M7bQ2ti51jzZ2LsZdMPpCdY8Yv49bJpLjmh2v4mzrN1vMm6DTzLovuZXGLSMMFNf+2ijjvsrDHt24FPMf7gJojVEY88280amf4CpJ5t8IxNPNv5ka+Be90kGHXNQY3SDn9bbME80MHnkgIuagU8kp+sVmLVEs4BppGgaKcyWQUXTSGEmw55gAbK4WjkazAxiEwFZXK2YRUM0TjRBNHm14jR80LD9FU0hta4wj5hDzJbsOl3Kc1DDqd+sPF0MHAr2EOp1urSIFemx6yjlKLMrkAUDCG2DCmnXDO7Il+1X/sY/xkLF18FEdsIAAAAASUVORK5CYILBDPFu",
+                "origin": [
+                    241,
+                    141
+                ]
+            }
+        }
+    ]
+}

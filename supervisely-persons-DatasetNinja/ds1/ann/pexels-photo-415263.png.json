@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 800,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 52538997,
+            "classId": 6462822,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2020-09-11T07:46:25.810Z",
+            "updatedAt": "2020-09-11T07:46:25.810Z",
+            "tags": [],
+            "classTitle": "person_bmp",
+            "bitmap": {
+                "data": "eJwBFQTq+4lQTkcNChoKAAAADUlIRFIAAAJXAAACzAEDAAAA81QFRwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAO9SURBVHic7dtBcuQgDAXQpLKYpY/AUTiafbQ+io/AMouUmel0kkl3sC2wHD7ia931qpoSAoR5etqL5/gvlt2fiQLVGq9WnCxb78MV45tly8ePwLK+qBhfjVoufotg0nqJdzEZtMZ76tCkVLR8fIzZmvX8gyovPKjWn4RVWndQrZ8pUT5gqFaKihdTViolSpNC03JJq+xPolppqmzxBrVeVqyS00xrVskGRdNya1bowCrYhKFao31rNe0LEp9WXgzr1tyBlZ2sqNbYt5W9xwe1UudQeGu2YQ0dWH7Lyjyr0QK1Mie3orU5HfuwLhasdC+HVmuW37ayig6tPGubyus10YK1siYkqLVTcnCt0L7laJmw9qicokMry9roh3ZkyXu/qJajdY1A6xxrpHUNcd8d1BKUHFq0iq1BYEkLPi1aZ1ojrVrWTr+dViPWQIvWiZanRasNS1ZWaZ1h7d4p3GKmhW15mTXRolViySha4Jaw5DRtORkl6stpWsK/SAvbkvR8W7dcB9Zo35KmBC19a+jAGqVWaNYSnrVpVbUmWsDWIKUE36XROskK7VqeVl/Wxb4l+US3hiV5i0SrmiVeti+0kC1pP1SSXjWsmZYJS0C1bon6x7RoFVpzy5an9RmTfUv2VOH3rdCBNdm3hM9OUS0JJX0xR4tWh5ZsayKbj7RolVmqX0bTqmeFDqw4uf3GnKblhJZkTqJaYkrQrAW1pClxjUAL1nIZ1l7i0zrP2lvYUK2R1n0EWtWsnaahCWsnWW1YcwfW9iUkquXyrM0Bq2htnmOMWJt7fFQrZ+97i9CBtV5cUa2cs+hHrK+Sda31wmPIWq36lqy16gpqFczHuFZ3UC1XZKVP3oqW+CnfQ6T+JKo1FFqpom/OSiwgqNZYaiXqjj3rJ6ZolU7H97i0YQ1HrIWWCeshKVAtb9IKLVjyF7/JWGiZsO42YZrWcNAKtExYbw1YnpYF62j5grW+FVZa9ayyPlpv1nyK5WiZsA5TtIxYb+jW8fJFq9RytExYx6n/N8q0aD1Yh+5NPmOmVdtytNq2XrGtkRatr4C2VMoqrSJr0LEutGj1anlaFqzj9ya3eKVV1RqUrIUWrYTllaxr0aGVZWmViT6sQKuipXA31JG1wFqeVjVLjerCCrCW16IWxe3EonJ//x7XYweqpTRgt/ttVGtQsSZoS2XAPj9TQLUGUEvjvgPech1YCpcn8JbC2h3gLUeLFi1ajVrH9/g9WBO85WjRokXrdCvQonWihZr3tGj9jnWYasBytq2/v9QUSQqeP50AAAAASUVORK5CYIK/IwLb",
+                "origin": [
+                    464,
+                    72
+                ]
+            }
+        }
+    ]
+}
