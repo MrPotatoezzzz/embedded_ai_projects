@@ -32,6 +32,8 @@ Only images containing the `person` class were retained, along with their polygo
 
 An initial attempt was made to train a **UNet-style segmentation model from scratch** (still present in the codebase). However, this approach proved too computationally expensive and time-consuming for the project constraints. For feasibility reasons, we pivoted to fine-tuning a pretrained YOLO model.
 
+The YOLO model training and pipeline can be found in the **yolo8seg.ipynb** file.
+
 **Key hyperparameters**
 - Image size: 416
 - Batch size: 8
