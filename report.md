@@ -64,28 +64,20 @@ While the model does not achieve the highest possible mIoU, it produces **mostly
 **Example outputs**
 - Demo images captured during live testing (input + segmentation mask)
 
-- Mask with picture
-<p float="left">
-  <img src="/picture_results/BB79BEF0-C45A-4E27-AB18-F34E512E925F.jpeg" width="45%" />
-</p>
+- Mask with picture  
+![Mask with picture](picture_results/BB79BEF0-C45A-4E27-AB18-F34E512E925F.jpeg)
 
-- Mask with picture and blur
-<p float="left">
-  <img src="/picture_results/79D99B4E-AC2A-4880-A6ED-D987CE3B9813.jpeg" width="45%" />
-</p>
+- Mask with picture and blur  
+![Mask with picture and blur](picture_results/79D99B4E-AC2A-4880-A6ED-D987CE3B9813.jpeg)
 
 - Validation set predictions:
 
 - Ground truth labels  
-<p float="left">
-  <img src="/runs/segment/val5/val_batch1_labels.jpg" width="45%" />
-</p>
+![Ground truth labels](runs/segment/val5/val_batch1_labels.jpg)
 
 
 - Model predictions  
-<p float="left">
-  <img src="/runs/segment/val5/val_batch1_pred.jpg " width="45%" />
-</p>
+![Model predictions](runs/segment/val5/val_batch1_pred.jpg)
 
 
 We can see that the model sees most of the people with some errors.
