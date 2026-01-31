@@ -57,7 +57,7 @@ An initial attempt was made to train a **UNet-style segmentation model from scra
 | mAP@50 | 0.521 | 0.513 |
 | mAP@50–95 | 0.357 | 0.312 |
 
-While the model does not achieve the highest possible mIoU, it produces **consistent and visually coherent person segmentation masks** across a wide range of scenes.
+While the model does not achieve the highest possible mIoU, it produces **mostly consistent and visually coherent person segmentation masks** across a wide range of scenes.
 
 **Example outputs**
 - Demo images captured during live testing (input + segmentation mask)
@@ -86,7 +86,7 @@ While the model does not achieve the highest possible mIoU, it produces **consis
 </p>
 
 
-These examples show correct detection and segmentation of multiple persons, including under occlusion and in cluttered environments.
+We can see that the model sees most of the people with some errors.
 
 ---
 
