@@ -20,7 +20,7 @@ except ImportError:
 
 try:
     from PIL import Image, ImageDraw
-except ImportError:  # pragma: no cover - Pillow is optional for the example.
+except ImportError:  # pragma: no cover
     Image = None
 
 
@@ -30,6 +30,9 @@ IMAGE_DIR_NAMES = {"images", "image", "imgs", "img"}
 MASK_DIR_NAMES = {"masks", "mask", "ann", "annotations", "labels", "gt"}
 
 
+# ----------------------------
+# Download + dataset discovery
+# ----------------------------
 def download_supervisely_persons(dst_dir):
     if dtools is None:
         raise ImportError("dataset_tools is not installed; pip install dataset-tools.")
@@ -90,6 +93,9 @@ def _count_matches(image_dir, mask_dir):
     )
 
 
+# ----------------------------
+# IO: image + mask
+# ----------------------------
 def _load_image(path):
     if Image is None:
         raise ImportError("Pillow is required to load images.")
@@ -109,7 +115,7 @@ def _load_mask(path):
         mask = Image.open(path).convert("L")
     data = torch.ByteTensor(list(mask.tobytes()))
     tensor = data.view(mask.height, mask.width).unsqueeze(0)
-    return tensor.float() / 255.0
+    return (tensor.float() / 255.0).clamp(0, 1)
 
 
 def _mask_from_supervisely_json(path):
@@ -138,11 +144,14 @@ def _mask_from_supervisely_json(path):
                 submask = submask.convert("L")
 
             x, y = origin
+            # handle swapped origin edge-case
             if (x > width or y > height) and (origin[0] <= height and origin[1] <= width):
                 x, y = origin[1], origin[0]
+
             x = max(0, min(int(x), width - 1))
             y = max(0, min(int(y), height - 1))
             mask.paste(submask, (x, y), submask)
+
         elif geometry_type == "polygon":
             points = obj.get("points", {}).get("exterior")
             if points:
@@ -163,6 +172,9 @@ def _decode_supervisely_bitmap(data):
     return Image.open(io.BytesIO(raw))
 
 
+# ----------------------------
+# Splits
+# ----------------------------
 def create_splits(
     dataset_root,
     out_dir,
@@ -216,10 +228,7 @@ def create_splits(
     payload = {"dataset_root": str(dataset_root), "splits": {}}
     for split_name, split_pairs in splits.items():
         payload["splits"][split_name] = [
-            {
-                "image": _rel_path(dataset_root, img_path),
-                "mask": _rel_path(dataset_root, mask_path),
-            }
+            {"image": _rel_path(dataset_root, img_path), "mask": _rel_path(dataset_root, mask_path)}
             for img_path, mask_path in split_pairs
         ]
 
@@ -235,52 +244,30 @@ def _rel_path(root, path):
         return str(path)
 
 
-class SuperviselyPersonsDataset(Dataset):
-    def __init__(self, splits_json, split, size=None):
-        splits_json = Path(splits_json)
-        payload = json.loads(splits_json.read_text())
-        self.dataset_root = Path(payload["dataset_root"])
-        self.items = payload["splits"][split]
-        self.size = size
-
-        if not self.items:
-            raise ValueError(f"Split '{split}' is empty in {splits_json}.")
-
-    def __len__(self):
-        return len(self.items)
-
-    def __getitem__(self, idx):
-        item = self.items[idx]
-        image_path = self.dataset_root / item["image"]
-        mask_path = self.dataset_root / item["mask"]
-        image = _load_image(image_path)
-        mask = _load_mask(mask_path)
-        if self.size is not None:
-            image = _resize_tensor(image, self.size, mode="bilinear")
-            mask = _resize_tensor(mask, self.size, mode="nearest")
-        return image, mask
+# ----------------------------
+# Augmentations (image+mask)
+# ----------------------------
+def _rand_bool(p, g):
+    return torch.rand((), generator=g).item() < p
 
 
-def create_dataloader(
-    splits_json,
-    split,
-    batch_size=4,
-    shuffle=True,
-    num_workers=0,
-    size=None,
-):
-    dataset = SuperviselyPersonsDataset(
-        splits_json=splits_json,
-        split=split,
-        size=size,
-    )
-    return DataLoader(
-        dataset,
-        batch_size=batch_size,
-        shuffle=shuffle,
-        num_workers=num_workers,
-        pin_memory=torch.cuda.is_available(),
-    )
+def _color_jitter(image, g, brightness=0.10, contrast=0.10):
+    # image: [C,H,W] in [0,1]
+    if brightness > 0:
+        b = (1.0 + (torch.rand((), generator=g).item() * 2 - 1) * brightness)
+        image = image * b
+    if contrast > 0:
+        c = (1.0 + (torch.rand((), generator=g).item() * 2 - 1) * contrast)
+        mean = image.mean(dim=(1, 2), keepdim=True)
+        image = (image - mean) * c + mean
+    return image.clamp(0, 1)
+
+
+def _add_noise(image, g, sigma=0.02):
+    if sigma <= 0:
+        return image
+    noise = torch.randn(image.shape, generator=g, device=image.device) * sigma
+    return (image + noise).clamp(0, 1)
 
 
 def _resize_tensor(tensor, size, mode):
@@ -294,10 +281,171 @@ def _resize_tensor(tensor, size, mode):
     ).squeeze(0)
 
 
+def _random_scale_and_crop(image, mask, out_size, g, scale_range=(0.75, 1.25)):
+    # 1) scale
+    _, h, w = image.shape
+    scale = scale_range[0] + (scale_range[1] - scale_range[0]) * torch.rand((), generator=g).item()
+    new_h = max(1, int(round(h * scale)))
+    new_w = max(1, int(round(w * scale)))
+
+    image_s = F.interpolate(image.unsqueeze(0), size=(new_h, new_w), mode="bilinear", align_corners=False).squeeze(0)
+    mask_s = F.interpolate(mask.unsqueeze(0), size=(new_h, new_w), mode="nearest").squeeze(0)
+
+    # 2) crop (or pad) to out_size
+    _, hs, ws = image_s.shape
+
+    if hs >= out_size:
+        top = int(torch.randint(0, hs - out_size + 1, (1,), generator=g).item())
+        image_s = image_s[:, top : top + out_size, :]
+        mask_s = mask_s[:, top : top + out_size, :]
+    else:
+        pad = out_size - hs
+        pad_top = int(torch.randint(0, pad + 1, (1,), generator=g).item())
+        pad_bottom = pad - pad_top
+        image_s = F.pad(image_s, (0, 0, pad_top, pad_bottom), mode="constant", value=0.0)
+        mask_s = F.pad(mask_s, (0, 0, pad_top, pad_bottom), mode="constant", value=0.0)
+
+    _, hs, ws = image_s.shape
+    if ws >= out_size:
+        left = int(torch.randint(0, ws - out_size + 1, (1,), generator=g).item())
+        image_s = image_s[:, :, left : left + out_size]
+        mask_s = mask_s[:, :, left : left + out_size]
+    else:
+        pad = out_size - ws
+        pad_left = int(torch.randint(0, pad + 1, (1,), generator=g).item())
+        pad_right = pad - pad_left
+        image_s = F.pad(image_s, (pad_left, pad_right, 0, 0), mode="constant", value=0.0)
+        mask_s = F.pad(mask_s, (pad_left, pad_right, 0, 0), mode="constant", value=0.0)
+
+    return image_s, mask_s
+
+
+def _random_rotate(image, mask, g, degrees=10):
+    # small rotation around center, same transform on image+mask
+    if degrees <= 0:
+        return image, mask
+
+    angle = (torch.rand((), generator=g).item() * 2 - 1) * degrees
+    theta = torch.tensor([
+        [torch.cos(torch.deg2rad(torch.tensor(angle))), -torch.sin(torch.deg2rad(torch.tensor(angle))), 0.0],
+        [torch.sin(torch.deg2rad(torch.tensor(angle))),  torch.cos(torch.deg2rad(torch.tensor(angle))), 0.0],
+    ], dtype=torch.float32).unsqueeze(0)
+
+    grid = F.affine_grid(theta, size=(1, image.shape[0], image.shape[1], image.shape[2]), align_corners=False)
+    img_r = F.grid_sample(image.unsqueeze(0), grid, mode="bilinear", padding_mode="zeros", align_corners=False).squeeze(0)
+    msk_r = F.grid_sample(mask.unsqueeze(0), grid, mode="nearest", padding_mode="zeros", align_corners=False).squeeze(0)
+    return img_r, msk_r
+
+
+def apply_train_augs(image, mask, out_size, seed, idx):
+    # Use per-sample deterministic generator (stable across workers)
+    g = torch.Generator()
+    g.manual_seed(int(seed) * 1_000_003 + int(idx))
+
+    # Make sure mask is binary-ish
+    mask = (mask > 0.5).float()
+
+    # 1) flip
+    if _rand_bool(0.5, g):
+        image = torch.flip(image, dims=[2])
+        mask = torch.flip(mask, dims=[2])
+
+    # 2) scale jitter + crop/pad to out_size
+    image, mask = _random_scale_and_crop(image, mask, out_size=out_size, g=g)
+
+    # 3) small rotation (optional but helpful)
+    if _rand_bool(0.7, g):
+        image, mask = _random_rotate(image, mask, g=g, degrees=8)
+
+    # 4) photometric (image only)
+    image = _color_jitter(image, g=g, brightness=0.12, contrast=0.12)
+
+    # 5) noise (image only)
+    if _rand_bool(0.3, g):
+        image = _add_noise(image, g=g, sigma=0.02)
+
+    # keep mask in {0,1}
+    mask = (mask > 0.5).float()
+    return image, mask
+
+
+# ----------------------------
+# Dataset + dataloader
+# ----------------------------
+class SuperviselyPersonsDataset(Dataset):
+    def __init__(self, splits_json, split, size=None, augment=False, augment_seed=0):
+        splits_json = Path(splits_json)
+        payload = json.loads(splits_json.read_text())
+        self.dataset_root = Path(payload["dataset_root"])
+        self.items = payload["splits"][split]
+        self.size = size
+        self.augment = augment
+        self.augment_seed = augment_seed
+
+        if not self.items:
+            raise ValueError(f"Split '{split}' is empty in {splits_json}.")
+
+    def __len__(self):
+        return len(self.items)
+
+    def __getitem__(self, idx):
+        item = self.items[idx]
+        image_path = self.dataset_root / item["image"]
+        mask_path = self.dataset_root / item["mask"]
+
+        image = _load_image(image_path)
+        mask = _load_mask(mask_path)
+
+        # If size is given, training uses size as final output dimension.
+        if self.size is not None:
+            if self.augment:
+                image, mask = apply_train_augs(image, mask, out_size=self.size, seed=self.augment_seed, idx=idx)
+            else:
+                image = _resize_tensor(image, self.size, mode="bilinear")
+                mask = _resize_tensor(mask, self.size, mode="nearest")
+                mask = (mask > 0.5).float()
+        else:
+            # If no resizing, still binarize mask
+            mask = (mask > 0.5).float()
+
+        return image, mask
+
+
+def create_dataloader(
+    splits_json,
+    split,
+    batch_size=4,
+    shuffle=True,
+    num_workers=0,
+    size=None,
+    augment=None,        # if None: auto (train=True else False)
+    augment_seed=0,
+):
+    if augment is None:
+        augment = (split == "train")
+
+    dataset = SuperviselyPersonsDataset(
+        splits_json=splits_json,
+        split=split,
+        size=size,
+        augment=augment,
+        augment_seed=augment_seed,
+    )
+    return DataLoader(
+        dataset,
+        batch_size=batch_size,
+        shuffle=shuffle,
+        num_workers=num_workers,
+        pin_memory=torch.cuda.is_available(),
+    )
+
+
+# ----------------------------
+# Helpers for matching masks
+# ----------------------------
 def _build_mask_maps(mask_dir):
     candidates = [
-        p
-        for p in mask_dir.glob("*")
+        p for p in mask_dir.glob("*")
         if p.suffix.lower() in IMAGE_EXTS.union(JSON_EXTS)
     ]
     by_name = {p.name: p for p in candidates}
@@ -317,6 +465,9 @@ def _match_mask(image_path, mask_map):
     return by_stem.get(image_path.stem)
 
 
+# ----------------------------
+# Export utilities (unchanged)
+# ----------------------------
 def export_split_folders(splits_json, out_dir):
     splits_json = Path(splits_json)
     payload = json.loads(splits_json.read_text())
@@ -365,6 +516,9 @@ def export_example_layout(splits_json, out_dir):
             mask_img.save(target_out / mask_name)
 
 
+# ----------------------------
+# CLI (unchanged)
+# ----------------------------
 def main():
     parser = argparse.ArgumentParser(
         description="Download Supervisely Persons and create train/val/test splits."
@@ -409,9 +563,11 @@ def main():
         mask_dir=args.mask_dir,
     )
     print(f"Wrote splits to {splits_path}")
+
     if args.export_data:
         export_split_folders(splits_path, args.export_data)
         print(f"Copied split data to {Path(args.export_data).resolve()}")
+
     if args.export_example_layout:
         export_example_layout(splits_path, args.export_example_layout)
         print(f"Wrote example layout to {Path(args.export_example_layout).resolve()}")
