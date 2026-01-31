@@ -62,22 +62,29 @@ While the model does not achieve the highest possible mIoU, it produces **consis
 **Example outputs**
 - Demo images captured during live testing (input + segmentation mask)
 
-<p float="left">
-  <img src="/picture_results/79D99B4E-AC2A-4880-A6ED-D987CE3B9813.jpeg" width="45%" />
-</p>
-
+- Mask with picture
 <p float="left">
   <img src="/picture_results/BB79BEF0-C45A-4E27-AB18-F34E512E925F.jpeg" width="45%" />
 </p>
 
+- Mask with picture and blur
+<p float="left">
+  <img src="/picture_results/79D99B4E-AC2A-4880-A6ED-D987CE3B9813.jpeg" width="45%" />
+</p>
 
 - Validation set predictions:
 
 - Ground truth labels  
-  ![](/runs/val5/val_batch1_labels.jpeg)
+<p float="left">
+  <img src="/runs/segment/val5/val_batch1_labels.jpg" width="45%" />
+</p>
+
 
 - Model predictions  
-  ![](/runs/val5/val_batch1_pred.jpeg)
+<p float="left">
+  <img src="/runs/segment/val5/val_batch1_pred.jpg width="45%" />
+</p>
+
 
 These examples show correct detection and segmentation of multiple persons, including under occlusion and in cluttered environments.
 
