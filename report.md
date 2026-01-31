@@ -82,7 +82,7 @@ While the model does not achieve the highest possible mIoU, it produces **consis
 
 - Model predictions  
 <p float="left">
-  <img src="/runs/segment/val5/val_batch1_pred.jpg width="45%" />
+  <img src="/runs/segment/val5/val_batch1_pred.jpg " width="45%" />
 </p>
 
 
