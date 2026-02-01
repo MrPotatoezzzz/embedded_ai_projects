@@ -73,6 +73,9 @@ While the model does not achieve the highest possible mIoU, it produces **mostly
 - Video of the demo working with the background blur 
 ![Background blur demo](picture_results/demo_video.gif)
 
+- Command to run the demo :
+- python3 src/demo.py --weights outputs/supervisely_run/best.onnx --size 416 --blur --blur-sigma 30
+
 - Validation set predictions:
 
 - Ground truth labels  
