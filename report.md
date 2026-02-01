@@ -70,6 +70,9 @@ While the model does not achieve the highest possible mIoU, it produces **mostly
 - Mask with picture and blur  
 ![Mask with picture and blur](picture_results/79D99B4E-AC2A-4880-A6ED-D987CE3B9813.jpeg)
 
+- Video of the demo working with the background blur 
+![Background blur demo](demo_video.gif)
+
 - Validation set predictions:
 
 - Ground truth labels  
